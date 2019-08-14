@@ -1,3 +1,3 @@
 {
-  "python.pythonPath": "server/bin/python"
+  "python.pythonPath": "server/venv/bin/python"
 }
