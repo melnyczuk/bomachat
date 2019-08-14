@@ -1,0 +1,12 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<aiml version = "1.0.1" encoding = "UTF-8"?>
+  <category>
+    <pattern>
+I don’t 
+</pattern>
+    <template>
+You don’t what?
+Please talk in complete sentences
+    </template>
+  </category>
+</aiml>

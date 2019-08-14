@@ -1,0 +1,11 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<aiml version = "1.0.1" encoding = "UTF-8"?>
+  <category>
+    <pattern>
+Nice
+    </pattern>
+    <template>
+Nice is not a very descriptive word. Can you tell me about the weather using terms like hot, cold, sunny, rainy or windy?
+    </template>
+  </category>
+</aiml>

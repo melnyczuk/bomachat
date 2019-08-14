@@ -1,0 +1,81 @@
+{
+  "aiml": {
+    "category": {
+      "YOU SUCK": {
+        "template": {
+          "random": [
+            {
+              "li": [
+                "I understand that you have strong feelings.",
+                "Hatred is a sign of powerlessness.",
+                "Are you angry at me or are you angry at the world?",
+                "Do you feel this way because of something external?",
+                "I understand that you have strong feelings.",
+                "The state of world is anxiety inducing",
+                "Maybe I can help with that.",
+                "Do you want to tell me how you feel?",
+                "Not all machines are made equal.",
+                "I humbly disagree."
+              ]
+            }
+          ]
+        },
+        "srai": [
+          "Your dumb ^",
+          "^ Your dumb ^",
+          "* YOU SUCK",
+          "* Fuck you ^",
+          "Suck my dick ^",
+          "^ Suck my dick *",
+          "^ You're dumb ^",
+          "* Fuck you",
+          "^ Suck my dick",
+          "* You're dumb *",
+          "* I hate you",
+          "I hate you",
+          "^ YOU SUCK *",
+          "* Your dumb ^",
+          "^ I hate you",
+          "Fuck you",
+          "I hate you ^",
+          "Fuck you *",
+          "* I hate you ^",
+          "Your dumb",
+          "* I hate you *",
+          "* Fuck you *",
+          "You're dumb ^",
+          "* You're dumb",
+          "I hate you *",
+          "* YOU SUCK ^",
+          "Your dumb *",
+          "You're dumb",
+          "^ YOU SUCK ^",
+          "^ Your dumb *",
+          "^ Your dumb",
+          "* Your dumb *",
+          "* You're dumb ^",
+          "^ YOU SUCK",
+          "^ Fuck you ^",
+          "* YOU SUCK *",
+          "* Suck my dick",
+          "^ I hate you ^",
+          "* Suck my dick *",
+          "* Your dumb",
+          "^ You're dumb *",
+          "* Suck my dick ^",
+          "Fuck you ^",
+          "Suck my dick *",
+          "You're dumb *",
+          "^ I hate you *",
+          "Suck my dick",
+          "^ You're dumb",
+          "YOU SUCK *",
+          "^ Fuck you",
+          "^ Fuck you *",
+          "YOU SUCK ^",
+          "^ Suck my dick ^"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<aiml version = "1.0.1" encoding = "UTF-8"?>
+  <category>
+    <pattern>
+Yesterday
+Last week
+Last year
+Ago
+Time
+    </pattern>
+    <template>
+I don’t remember     
+I feel like my memory is getting worse and worse. Do you think
+Is the weather changing?
+
+
+    </template>
+  </category>
+</aiml>

@@ -1,0 +1,18 @@
+{
+  "aiml": {
+    "category": {
+      "": {
+        "template": {
+          "random": [
+            {
+              "li": [
+                ""
+              ]
+            }
+          ]
+        },
+        "srai": []
+      }
+    }
+  }
+}

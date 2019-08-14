@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<aiml version = "1.0.1" encoding = "UTF-8"?>
+  <category>
+    <pattern>
+Perth
+Melbourne
+Sydney
+Canberra
+Brisbane
+Australia
+NSW
+Victoria
+Tasmania
+Queensland
+etc.
+</pattern>
+    <template>
+What is the weather like in *placename*?
+    </template>
+  </category>
+</aiml>

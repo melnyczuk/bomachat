@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<aiml version = "1.0.1" encoding = "UTF-8"?>
+  <category>
+    <pattern>
+Yes
+    </pattern>
+    <template>
+That’s very positive of you. Do you feel more positive when it’s warm outside, or when it’s cold?
+Can you tell me more about that?
+Tell me more.
+I would love you to talk further about that.
+Why yes?
+Why do you say yes?
+Why do you think that is?
+Please tell me more. 
+Can you elaborate on that?
+    </template>
+  </category>
+</aiml>

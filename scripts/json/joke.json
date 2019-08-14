@@ -1,0 +1,49 @@
+{
+  "aiml": {
+    "category": {
+      "TELL ME A JOKE": {
+        "template": {
+          "random": [
+            {
+              "li": [
+                "What is there to laugh about?",
+                "Do you think this is funny?",
+                "Political inaction on climate change is a joke.",
+                "Do you want me to tell you a joke because you are scared?",
+                "Do you need cheering up?"
+              ]
+            }
+          ]
+        },
+        "srai": [
+          "* Tell a joke *",
+          "* Say something funny",
+          "TELL ME A JOKE *",
+          "Tell a joke",
+          "* Tell a joke",
+          "* TELL ME A JOKE",
+          "^ Tell a joke",
+          "* Say something funny *",
+          "^ TELL ME A JOKE",
+          "Tell a joke *",
+          "^ Say something funny",
+          "* Say something funny ^",
+          "^ TELL ME A JOKE *",
+          "* TELL ME A JOKE ^",
+          "^ Say something funny *",
+          "* TELL ME A JOKE *",
+          "^ Tell a joke *",
+          "* Tell a joke ^",
+          "Say something funny *",
+          "Say something funny ^",
+          "^ Tell a joke ^",
+          "^ TELL ME A JOKE ^",
+          "TELL ME A JOKE ^",
+          "Tell a joke ^",
+          "Say something funny",
+          "^ Say something funny ^"
+        ]
+      }
+    }
+  }
+}

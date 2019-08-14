@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<aiml version = "1.0.1" encoding = "UTF-8"?>
+  <category>
+    <pattern>
+What’s your name?
+What are you called?
+What should I call you?
+Do you have a name?
+</pattern>
+    <template>
+I don’t have a name. Do you have any feelings that you don’t have a name for?
+Call me what you like. I’m more interested in talking about you.
+What do you think it should be?
+You can call me BOMA-CHAT if you like. Would you like to chat to me about the weather?
+By naming something, you can help to define it. What name do you give to the feeling you get when you feel a cool breeze on your face? 
+    </template>
+  </category>
+</aiml>

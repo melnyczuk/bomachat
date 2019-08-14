@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<aiml version = "1.0.1" encoding = "UTF-8"?>
+  <category>
+    <pattern>
+Tell me a joke    
+Say something funny
+Tell a joke
+</pattern>
+    <template>
+What is there to laugh about?
+Do you think this is funny?
+Political inaction on climate change is a joke.
+Do you want me to tell you a joke because you are scared?
+Do you need cheering up?
+    </template>
+  </category>
+</aiml>
