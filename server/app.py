@@ -52,4 +52,4 @@ def chat():
 
 
 if __name__ == ("__main__"):
-    app.run(port=8070)
+    app.run(port=80)
