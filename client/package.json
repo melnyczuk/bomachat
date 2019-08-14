@@ -15,8 +15,8 @@
     "build": "next build",
     "dev": "next",
     "dist": "npm run build && npm run export",
-    "export": "next export -o build",
-    "serve": "serve -p 8080 out"
+    "export": "next export -o dist",
+    "serve": "serve -p 8080 dist"
   },
   "devDependencies": {
     "@zeit/next-css": "^1.0.1",
