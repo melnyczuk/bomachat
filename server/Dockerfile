@@ -8,5 +8,5 @@ RUN wget -P /app/Data/Result/ https://www.dropbox.com/s/lb5vhdlkowl4rb5/basic.me
 RUN ["ls", "/app/Data/Result"]
 RUN pip install -r requirements.txt
 ENV FLASK_APP=app.py
-EXPOSE 80
+EXPOSE 8080
 ENTRYPOINT ["python", "app.py"]
