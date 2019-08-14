@@ -4,6 +4,7 @@ __pycache__
 venv
 coverage
 build
+.next
 
 # VSCode:
 .vscode/*
