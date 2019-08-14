@@ -2,4 +2,4 @@ build:
   docker:
     web: ./server/Dockerfile
 run:
-  web: python ./server/app.py
+  web: gunicorn run:app -b "0.0.0.0:$PORT" -w 3
