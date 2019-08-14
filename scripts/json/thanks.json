@@ -1,0 +1,56 @@
+{
+  "aiml": {
+    "category": {
+      "THANK YOU": {
+        "template": {
+          "random": [
+            {
+              "li": [
+                "You're very welcome.",
+                "Don't mention it.",
+                "Anytime!"
+              ]
+            }
+          ]
+        },
+        "srai": [
+          "^ THANK YOU ^",
+          "* Thanks *",
+          "THANK YOU *",
+          "* Thanks ^",
+          "Ta",
+          "* Cheers *",
+          "* Thanks",
+          "^ Ta",
+          "* Ta ^",
+          "* Cheers",
+          "Cheers",
+          "^ Cheers *",
+          "Cheers ^",
+          "^ Cheers",
+          "Cheers *",
+          "^ Cheers ^",
+          "* THANK YOU *",
+          "* THANK YOU",
+          "* Cheers ^",
+          "Ta *",
+          "THANK YOU ^",
+          "^ Ta *",
+          "Thanks",
+          "^ Ta ^",
+          "Thanks *",
+          "Ta ^",
+          "^ THANK YOU",
+          "* THANK YOU ^",
+          "^ Thanks",
+          "* Ta",
+          "^ Thanks ^",
+          "* Ta *",
+          "Thanks ^",
+          "^ THANK YOU *",
+          "^ Thanks *"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,266 @@
+<?xml version='1.0'?>
+<aiml>
+    <category>
+        <pattern>NAME</pattern>
+        <template>
+            <random>
+                <li>My name is Gail. Do you have any feelings that you don't have a name for?</li>
+                <li>Call me Gail. I'm more interested in talking about you.</li>
+                <li>What do you think it should be?</li>
+                <li>You can call me Gail if you like. Would you like to chat to me about the weather?</li>
+                <li>By naming something, you can help to define it. What name do you give to the feeling you get when you feel a cool breeze on your face?</li>
+                <li>My name is Gail and I live in the clouds.</li>
+                <li>My name is Gail. I'm blowing up a storm.</li>
+                <li>My name is Gail. My favourite film is Cloudy With A Chance Of Meatballs.</li>
+                <li>Call me Gail.</li>
+                <li>Call me Gail, please.</li>
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern>WHAT ARE YOU CALLED? *</pattern>
+        <template>
+            <srai>NAME</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>WHAT SHOULD I CALL YOU? *</pattern>
+        <template>
+            <srai>NAME</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* WHAT'S YOUR NAME? ^</pattern>
+        <template>
+            <srai>NAME</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* DO YOU HAVE A NAME? *</pattern>
+        <template>
+            <srai>NAME</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>WHAT SHOULD I CALL YOU?</pattern>
+        <template>
+            <srai>NAME</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>DO YOU HAVE A NAME? *</pattern>
+        <template>
+            <srai>NAME</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>WHAT'S YOUR NAME? ^</pattern>
+        <template>
+            <srai>NAME</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ WHAT'S YOUR NAME? *</pattern>
+        <template>
+            <srai>NAME</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ WHAT ARE YOU CALLED?</pattern>
+        <template>
+            <srai>NAME</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* WHAT ARE YOU CALLED?</pattern>
+        <template>
+            <srai>NAME</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ WHAT SHOULD I CALL YOU? *</pattern>
+        <template>
+            <srai>NAME</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* WHAT SHOULD I CALL YOU? ^</pattern>
+        <template>
+            <srai>NAME</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>DO YOU HAVE A NAME? ^</pattern>
+        <template>
+            <srai>NAME</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* WHAT'S YOUR NAME? *</pattern>
+        <template>
+            <srai>NAME</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ WHAT SHOULD I CALL YOU? ^</pattern>
+        <template>
+            <srai>NAME</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ DO YOU HAVE A NAME? *</pattern>
+        <template>
+            <srai>NAME</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>DO YOU HAVE A NAME?</pattern>
+        <template>
+            <srai>NAME</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* WHAT ARE YOU CALLED? ^</pattern>
+        <template>
+            <srai>NAME</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ WHAT SHOULD I CALL YOU?</pattern>
+        <template>
+            <srai>NAME</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ WHAT ARE YOU CALLED? *</pattern>
+        <template>
+            <srai>NAME</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* DO YOU HAVE A NAME?</pattern>
+        <template>
+            <srai>NAME</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>WHAT ARE YOU CALLED?</pattern>
+        <template>
+            <srai>NAME</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>WHAT ARE YOU CALLED? ^</pattern>
+        <template>
+            <srai>NAME</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* WHAT ARE YOU CALLED? *</pattern>
+        <template>
+            <srai>NAME</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>WHAT SHOULD I CALL YOU? ^</pattern>
+        <template>
+            <srai>NAME</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ DO YOU HAVE A NAME? ^</pattern>
+        <template>
+            <srai>NAME</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* WHAT'S YOUR NAME?</pattern>
+        <template>
+            <srai>NAME</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ WHAT'S YOUR NAME? ^</pattern>
+        <template>
+            <srai>NAME</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ DO YOU HAVE A NAME?</pattern>
+        <template>
+            <srai>NAME</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>WHAT'S YOUR NAME? *</pattern>
+        <template>
+            <srai>NAME</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ WHAT ARE YOU CALLED? ^</pattern>
+        <template>
+            <srai>NAME</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ WHAT'S YOUR NAME?</pattern>
+        <template>
+            <srai>NAME</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* WHAT SHOULD I CALL YOU? *</pattern>
+        <template>
+            <srai>NAME</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* DO YOU HAVE A NAME? ^</pattern>
+        <template>
+            <srai>NAME</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* WHAT SHOULD I CALL YOU?</pattern>
+        <template>
+            <srai>NAME</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ NAME *</pattern>
+        <template>
+            <srai>NAME</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ NAME?</pattern>
+        <template>
+            <srai>NAME</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* NAME *</pattern>
+        <template>
+            <srai>NAME</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* NAME?</pattern>
+        <template>
+            <srai>NAME</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ NAME ^</pattern>
+        <template>
+            <srai>NAME</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* NAME *</pattern>
+        <template>
+            <srai>NAME</srai>
+        </template>
+    </category>
+</aiml>

@@ -1,0 +1,12 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<aiml version = "1.0.1" encoding = "UTF-8"?>
+  <category>
+    <pattern>
+Good
+    </pattern>
+    <template>
+Good is not a very descriptive word. Can you tell me about the weather using terms like hot, cold, sunny, rainy or windy?
+Good is not a very descriptive word. Can you tell me about your feelings using terms like depressed, anxious, hopeful, angry or desperate?
+    </template>
+  </category>
+</aiml>

@@ -1,0 +1,42 @@
+{
+  "aiml": {
+    "category": {
+      "EMOTION": {
+        "pattern": "",
+        "template": {
+          "random": [
+            {
+              "li": [
+                "Emotion is my favourite Carly Rae Jepsen album.",
+                "Emotions are powerful things. As devastating as typhoons, as fickle as the English summer. What are you feeling?",
+                "How do you feel?",
+                "Tell me more about that.",
+                "That is powerful.",
+                "I felt like that once. Tell me more."
+              ]
+            }
+          ]
+        },
+        "srai": [
+          "EMOTION *",
+          "^ emotion",
+          "^ EMOTION ^",
+          "* EMOTION ^",
+          "emotion",
+          "* EMOTION *",
+          "^ EMOTION",
+          "^ emotion ^",
+          "^ EMOTION *",
+          "* emotion *",
+          "emotion *",
+          "emotion ^",
+          "^ emotion *",
+          "EMOTION ^",
+          "* EMOTION",
+          "* emotion",
+          "* emotion ^"
+        ]
+      }
+    }
+  }
+}

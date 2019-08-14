@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<aiml version = "1.0.1" encoding = "UTF-8"?>
+  <category>
+    <pattern>
+I love you 
+You are cool
+luv u
+
+</pattern>
+    <template>
+I’m glad. I also feel a strong sense of unity with the world. 
+
+
+    </template>
+  </category>
+</aiml>

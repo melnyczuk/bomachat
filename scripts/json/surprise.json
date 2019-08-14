@@ -1,0 +1,33 @@
+{
+  "aiml": {
+    "category": {
+      "SURPRISE": {
+        "template": {
+          "random": [
+            {
+              "li": [
+                "You'd be surprised how many people feel the same way. It`s like an epidemic right now.",
+                "You'd be surprised how many people feel the same way. Some people cant even leave the house any more.",
+                "Do you sometimes feel like you cant leave the house because of the weather?",
+                "Do you often feel under the weather?",
+                "Are you easily shocked? Lightning stikes are common this time of year.",
+                "Do you scary easily? Are you scared now?"
+              ]
+            }
+          ]
+        },
+        "srai": [
+          "^ surprised *",
+          "^ surprised",
+          "^ surprised ^",
+          "* surprised ^",
+          "* surprised",
+          "surprised ^",
+          "surprised",
+          "surprised *",
+          "* surprised *"
+        ]
+      }
+    }
+  }
+}

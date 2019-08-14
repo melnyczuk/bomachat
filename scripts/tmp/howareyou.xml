@@ -1,0 +1,31 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<aiml version = "1.0.1" encoding = "UTF-8"?>
+  <category>
+    <pattern>
+How are you?
+How’s it going?
+What’s up?
+How’s things?
+How are things?
+How are you doing?
+What’s new?
+Wassup?
+Sup?
+How’s everything
+    </pattern>
+    <template>
+Right now I’m feeling a bit chilly. Is it cold outside?
+I am thirsty. When was the last time it rained?
+I’m very warm. Is the sun out?
+I’m fine thanks for asking. You seem like a very considerate person.
+I’m scared! Do you get scared sometimes?
+I feel miserable. Is there any hope for the future?
+I’m feeling a bit homesick today. Where is your home?
+I am wonderful! What is your favourite thing about this world?
+I am worried about the future. What do you think is going to happen?
+I’m so sad. Please tell me something to cheer me up.   
+I am angry! Do you know what is happening in the world right now?
+I feel hopeless. How can we make a difference to the future?
+    </template>
+  </category>
+</aiml>
