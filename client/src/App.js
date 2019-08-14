@@ -11,7 +11,7 @@ class App extends Component {
       input: "",
       logs: [],
       axios: axios.create({
-        baseURL: "http://localhost:70",
+        baseURL: "http://localhost:8070",
         timeout: 10000,
         headers: {
           "Access-Control-Allow-Origin": "*"
