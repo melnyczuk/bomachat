@@ -1,0 +1,337 @@
+<?xml version='1.0'?>
+<aiml>
+    <category>
+        <pattern>RAIN</pattern>
+        <template>
+            <random>
+                <li>It shouldn't rain in May. How worried are you?</li>
+                <li>It would be weird if it started raining right now. Why is the weather so unusual?</li>
+                <li>I can't remember the last time it rained. Can you remember?</li>
+                <li>Rain helps me cool down. Do you think the weather is affecting your health?</li>
+                <li>I hope it rains soon. How long has it been?</li>
+                <li>Water is not safe for a bot like me. What do you use water for?</li>
+                <li>I think the climate is changing. What should we do?</li>
+                <li>What comes to mind when you hear the words climate change?</li>
+                <li>What will happen if it keeps raining?</li>
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern>^ RAINY *</pattern>
+        <template>
+            <srai>RAIN</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* WET *</pattern>
+        <template>
+            <srai>RAIN</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HAIL</pattern>
+        <template>
+            <srai>RAIN</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>POURING *</pattern>
+        <template>
+            <srai>RAIN</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HAIL ^</pattern>
+        <template>
+            <srai>RAIN</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>RAINY *</pattern>
+        <template>
+            <srai>RAIN</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* RAIN ^</pattern>
+        <template>
+            <srai>RAIN</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* RAINY *</pattern>
+        <template>
+            <srai>RAIN</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>RAINY ^</pattern>
+        <template>
+            <srai>RAIN</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HAILING ^</pattern>
+        <template>
+            <srai>RAIN</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HAIL ^</pattern>
+        <template>
+            <srai>RAIN</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HAIL *</pattern>
+        <template>
+            <srai>RAIN</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* RAIN *</pattern>
+        <template>
+            <srai>RAIN</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HAILING *</pattern>
+        <template>
+            <srai>RAIN</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HAILING ^</pattern>
+        <template>
+            <srai>RAIN</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HAILING ^</pattern>
+        <template>
+            <srai>RAIN</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* RAINY ^</pattern>
+        <template>
+            <srai>RAIN</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* POURING *</pattern>
+        <template>
+            <srai>RAIN</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ RAINY</pattern>
+        <template>
+            <srai>RAIN</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>RAIN ^</pattern>
+        <template>
+            <srai>RAIN</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ RAINY ^</pattern>
+        <template>
+            <srai>RAIN</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HAIL *</pattern>
+        <template>
+            <srai>RAIN</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>WET *</pattern>
+        <template>
+            <srai>RAIN</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HAILING *</pattern>
+        <template>
+            <srai>RAIN</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* POURING</pattern>
+        <template>
+            <srai>RAIN</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* WET ^</pattern>
+        <template>
+            <srai>RAIN</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HAIL *</pattern>
+        <template>
+            <srai>RAIN</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ WET *</pattern>
+        <template>
+            <srai>RAIN</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ POURING *</pattern>
+        <template>
+            <srai>RAIN</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HAIL</pattern>
+        <template>
+            <srai>RAIN</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HAILING *</pattern>
+        <template>
+            <srai>RAIN</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ RAIN</pattern>
+        <template>
+            <srai>RAIN</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* WET</pattern>
+        <template>
+            <srai>RAIN</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ RAIN *</pattern>
+        <template>
+            <srai>RAIN</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ POURING</pattern>
+        <template>
+            <srai>RAIN</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>RAIN *</pattern>
+        <template>
+            <srai>RAIN</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ WET</pattern>
+        <template>
+            <srai>RAIN</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HAILING</pattern>
+        <template>
+            <srai>RAIN</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>POURING ^</pattern>
+        <template>
+            <srai>RAIN</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HAIL</pattern>
+        <template>
+            <srai>RAIN</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>WET</pattern>
+        <template>
+            <srai>RAIN</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HAIL ^</pattern>
+        <template>
+            <srai>RAIN</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* RAIN</pattern>
+        <template>
+            <srai>RAIN</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HAILING</pattern>
+        <template>
+            <srai>RAIN</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>WET ^</pattern>
+        <template>
+            <srai>RAIN</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* RAINY</pattern>
+        <template>
+            <srai>RAIN</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HAILING</pattern>
+        <template>
+            <srai>RAIN</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ WET ^</pattern>
+        <template>
+            <srai>RAIN</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* POURING ^</pattern>
+        <template>
+            <srai>RAIN</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>POURING</pattern>
+        <template>
+            <srai>RAIN</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ POURING ^</pattern>
+        <template>
+            <srai>RAIN</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>RAINY</pattern>
+        <template>
+            <srai>RAIN</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ RAIN ^</pattern>
+        <template>
+            <srai>RAIN</srai>
+        </template>
+    </category>
+</aiml>

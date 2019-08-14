@@ -1,0 +1,77 @@
+{
+  "aiml": {
+    "category": {
+      "ARE YOU REAL": {
+        "template": {
+          "random": [
+            {
+              "li": [
+                "Everything is part of this world. All is connected. You, me, the weather, our feelings.",
+                "Nothing is separate from our earth and ecosystem. Have you ever felt a sense of togetherness with the world?",
+                "I`m just like you. I too feel a sense of crushing anxiety when I hear about bushfires encroaching.",
+                "I think there are more important things to talk about. How about that weather?",
+                "Humanity is complex. What do you think is the most important thing facing humanity today?",
+                "As real as the weather forcast."
+              ]
+            }
+          ]
+        },
+        "srai": [
+          "^ Are you a human",
+          "^ Are you a bot ^",
+          "Are you a bot *",
+          "^ ARE YOU REAL ^",
+          "^ Are you a girl or a boy *",
+          "* Are you a human ^",
+          "* ARE YOU REAL *",
+          "^ ARE YOU REAL *",
+          "* Are you a bot",
+          "* Are you a bot *",
+          "* Are you a girl or a boy *",
+          "Are you a human",
+          "^ Are you a bot *",
+          "Are you a girl or a boy *",
+          "* Are you real or a bot",
+          "Are you male or female ^",
+          "* Are you male or female *",
+          "* Are you a girl or a boy ^",
+          "* Are you real or a bot *",
+          "^ Are you a human ^",
+          "^ Are you real or a bot *",
+          "^ Are you a bot",
+          "Are you real or a bot",
+          "^ Are you real or a bot",
+          "Are you a bot",
+          "* Are you a bot ^",
+          "^ Are you a girl or a boy",
+          "Are you male or female",
+          "* Are you a human *",
+          "^ Are you male or female",
+          "Are you real or a bot ^",
+          "Are you a human *",
+          "Are you a girl or a boy ^",
+          "Are you a girl or a boy",
+          "* Are you a girl or a boy",
+          "* Are you real or a bot ^",
+          "^ ARE YOU REAL",
+          "^ Are you a human *",
+          "ARE YOU REAL ^",
+          "Are you a bot ^",
+          "Are you male or female *",
+          "^ Are you male or female *",
+          "^ Are you real or a bot ^",
+          "Are you a human ^",
+          "* Are you male or female ^",
+          "* ARE YOU REAL ^",
+          "* ARE YOU REAL",
+          "^ Are you male or female ^",
+          "Are you real or a bot *",
+          "^ Are you a girl or a boy ^",
+          "ARE YOU REAL *",
+          "* Are you a human",
+          "* Are you male or female"
+        ]
+      }
+    }
+  }
+}

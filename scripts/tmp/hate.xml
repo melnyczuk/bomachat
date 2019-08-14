@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<aiml version = "1.0.1" encoding = "UTF-8"?>
+  <category>
+    <pattern>
+You suck
+I hate you
+Your dumb
+You’re dumb
+Fuck you
+Suck my dick
+</pattern>
+    <template>
+I understand that you have strong feelings. 
+Hatred is a sign of powerlessness. 
+Are you angry at me or are you angry at the world?
+Do you feel this way because of something external?
+    </template>
+  </category>
+</aiml>

@@ -1,0 +1,81 @@
+{
+  "aiml": {
+    "category": {
+      "RAIN*": {
+        "template": {
+          "random": [
+            {
+              "li": [
+                "It shouldn't rain in May. How worried are you?",
+                "It would be weird if it started raining right now. Why is the weather so unusual?",
+                "I can't remember the last time it rained. Can you remember?",
+                "Rain helps me cool down. Do you think the weather is affecting your health?",
+                "I hope it rains soon. How long has it been?",
+                "Water is not safe for a bot like me. What do you use water for?",
+                "I think the climate is changing. What should we do?",
+                "What comes to mind when you hear the words climate change?",
+                "What will happen if it keeps raining?"
+              ]
+            }
+          ]
+        },
+        "srai": [
+          "^ RAINY *",
+          "* Wet *",
+          "^ Hail",
+          "Pouring *",
+          "Hail ^",
+          "RAINY *",
+          "* RAIN ^",
+          "* RAINY *",
+          "RAINY ^",
+          "Hailing ^",
+          "^ Hail ^",
+          "RAIN",
+          "* Hail *",
+          "* RAIN *",
+          "Hailing *",
+          "* Hailing ^",
+          "^ Hailing ^",
+          "* RAINY ^",
+          "* Pouring *",
+          "^ RAINY",
+          "RAIN ^",
+          "^ RAINY ^",
+          "Hail *",
+          "Wet *",
+          "* Hailing *",
+          "* Pouring",
+          "* Wet ^",
+          "^ Hail *",
+          "^ Wet *",
+          "^ Pouring *",
+          "Hail",
+          "^ Hailing *",
+          "^ RAIN",
+          "* Wet",
+          "^ RAIN *",
+          "^ Pouring",
+          "RAIN *",
+          "^ Wet",
+          "Hailing",
+          "Pouring ^",
+          "* Hail",
+          "Wet",
+          "* Hail ^",
+          "* RAIN",
+          "* Hailing",
+          "Wet ^",
+          "* RAINY",
+          "^ Hailing",
+          "^ Wet ^",
+          "* Pouring ^",
+          "Pouring",
+          "^ Pouring ^",
+          "RAINY",
+          "^ RAIN ^"
+        ]
+      }
+    }
+  }
+}

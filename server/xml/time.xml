@@ -1,0 +1,2433 @@
+<?xml version='1.0'?>
+<aiml>
+    <category>
+        <pattern>YESTERDAY</pattern>
+        <template>
+            <random>
+                <li>I don't remember</li>
+                <li>I feel like my memory is getting worse and worse. Do you think?</li>
+                <li>Is the weather changing?</li>
+                <li>Gradually, yes. Was it different when you were a child?</li>
+                <li>What year was that?</li>
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern>^ LANG SYNE</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>EREWHILE *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* PAST ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>THE IRREVOCABLE PAST</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HITHERTO ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* YESTERDAY</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ BYGONE DAYS *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>EARLIER</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HITHERTO *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>FORMERLY *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HITHERTO ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ THE IRREVOCABLE PAST ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>FORETIME ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* THEN</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>IN TIMES PAST</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* ERENOW ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>WHILOM ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* LANG SYNE *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BEFORE ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HERETOFORE ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ FORMERLY *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>RECENTLY</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BYGONE DAYS *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ YESTERDAY ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* DAYS GONE BY ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* THOU UNRELENTING PAST *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* PRIORLY</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>YESTERYEAR ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HISTORICALLY</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* PAST TIMES</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>PREHISTORICALLY ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>THE PAST ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>PAST</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ RECENT PAST</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ ERENOW ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>AGO ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ PREVIOUSLY *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* IN THE PAST</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ YESTERYEAR *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* FORMER TIMES</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ AFORETIME</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ PAST TIMES ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>THEN *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* THOU UNRELENTING PAST ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* YESTERDAY ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ RECENTLY ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* BEFORE NOW *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>IN THE PAST *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ BEFORE NOW ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>FORMERLY ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ DAYS GONE BY ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>DAYS GONE BY ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HITHERTO *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>RECENT PAST</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>LAST YEAR</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ BYGONE TIMES ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ THE IRREVOCABLE PAST *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* IN TIMES PAST</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ YESTERDAY</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>IN TIMES PAST *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>YESTERYEAR *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* RECENTLY</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ YORE</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* PREVIOUSLY *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* FORETIME *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* IN THE PAST ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>EARLIER *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* YESTERYEAR *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ ERENOW *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BYGONE TIMES ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ PAST HISTORY *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ EARLIER *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>ERENOW ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* THE PAST</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HERETOFORE ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* BYGONE TIMES *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ YESTERDAY *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ THE IRREVOCABLE PAST</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ TIMES PAST *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ THE PAST ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* PREVIOUSLY</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>FORMER TIMES *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* ONLY YESTERDAY ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>AGO</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>LAST YEAR *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* AGO</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* AFORETIME ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BEFORE *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ YESTERDAY ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ EREWHILE *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HERETOFORE *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ FORMER TIMES *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* BYGONE DAYS</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* TIME *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>AFORETIME *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HISTORY *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>YESTERDAY *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* DAYS GONE BY *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ BEFORETIME ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* BEFORETIME *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* YORE</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* YESTERDAY ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>PRIORLY *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ RECENTLY *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* FORMERLY</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* DEAD PAST *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HISTORICALLY *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* EREWHILE *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>DAYS GONE BY *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HITHERTO</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>TIMES PAST *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>DEAD PAST *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* PAST</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>AFORETIME</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ BEFORE NOW *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ BYGONE DAYS ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ WHILOM</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ LAST YEAR</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BYGONE DAYS ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HITHERTO *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* BEFORE NOW</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>ERST *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ LANG SYNE *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ PAST ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>ERENOW *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ TIMES PAST ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* WHILOM *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HISTORY ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* YESTERYEAR</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>PAST *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* DAYS GONE BY</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>FORMER TIMES</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* PREVIOUSLY ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ FORMERLY</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* THE PAST *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>TIME *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>LANG SYNE ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ EREWHILE ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>THEN</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>ERST ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* FORMERLY *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>THE IRREVOCABLE PAST *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ DAYS GONE BY *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HISTORICALLY</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* FORETIME</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ LAST WEEK *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>IN THE PAST ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* AFORETIME</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* EARLIER ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ THE PAST *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>TIMES PAST</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* BEFORE NOW ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ BYGONE TIMES</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>PREVIOUSLY</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>RECENTLY *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* ERST *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* ERST</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* DEAD PAST ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ IN TIMES PAST</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ ERENOW</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* BYGONE DAYS ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ BEFORE NOW</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* AGO ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ AFORETIME ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>RECENTLY ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* BEFORETIME</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* BEFORE *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ LAST YEAR *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* LAST YEAR *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ PREHISTORICALLY</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BEFORE NOW</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HERETOFORE *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BEFORETIME</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>ERENOW</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HERETOFORE ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* PAST HISTORY *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ BEFORETIME</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* LAST WEEK ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ FORMER TIMES ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>TIMES PAST ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HISTORICALLY ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>YORE *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>YORE</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* IN TIMES PAST *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ YESTERDAY *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* BEFORE ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BEFORE NOW *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ THOU UNRELENTING PAST</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ THEN</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* THE IRREVOCABLE PAST *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* PREHISTORICALLY ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ BYGONE TIMES *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* THEN ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BEFORE NOW ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ AGO *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HISTORICALLY</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ IN THE PAST *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ RECENTLY</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* AFORETIME *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* THOU UNRELENTING PAST</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>DEAD PAST ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>PAST TIMES *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ PAST TIMES</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* FORMERLY ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ YESTERDAY</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>LAST WEEK</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>PAST HISTORY *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ YORE ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* FORMER TIMES *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>THE IRREVOCABLE PAST ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>PRIORLY</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HITHERTO ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ FORETIME</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* PAST HISTORY</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HERETOFORE</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* YESTERDAY *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ THE PAST</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* FORMER TIMES ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* EARLIER *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>IN THE PAST</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* BEFORE</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ TIMES PAST</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* BYGONE DAYS *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ AGO ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>IN TIMES PAST ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ DEAD PAST *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* BYGONE TIMES</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>EREWHILE</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ DAYS GONE BY</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ AGO</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* DEAD PAST</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ ONLY YESTERDAY ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ ONLY YESTERDAY</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ YORE *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>PREHISTORICALLY</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ BYGONE DAYS</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>LANG SYNE *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* TIMES PAST *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ TIME</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>ERST</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ IN TIMES PAST ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HISTORY</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* PREHISTORICALLY</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* WHILOM</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* FORETIME ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* ERENOW</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* IN THE PAST *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ ERST ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* ONLY YESTERDAY *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* RECENT PAST</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HISTORICALLY ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* WHILOM ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ FORETIME *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ TIME ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>THE PAST *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>PAST TIMES ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HERETOFORE *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ BEFORETIME *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* LAST YEAR</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>THOU UNRELENTING PAST</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* YORE ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ PAST HISTORY ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ IN THE PAST ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BEFORETIME *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* LAST WEEK</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>WHILOM</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>RECENT PAST ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>LAST YEAR ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* THE IRREVOCABLE PAST ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* PAST HISTORY ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* THE IRREVOCABLE PAST</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ IN THE PAST</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>PRIORLY ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* RECENTLY ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>PAST HISTORY ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>YESTERYEAR</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ WHILOM *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>LANG SYNE</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ EARLIER</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HISTORICALLY *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>DAYS GONE BY</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>DEAD PAST</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ PREHISTORICALLY ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HISTORY</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HISTORICALLY *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ THEN ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* YORE *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HERETOFORE</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>TIME</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ TIME *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* EREWHILE</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HISTORICALLY ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BYGONE TIMES *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>ONLY YESTERDAY *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* RECENTLY *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>EARLIER ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>PREHISTORICALLY *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* LAST YEAR ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ EARLIER ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ DEAD PAST</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* LANG SYNE</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HITHERTO</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>LAST WEEK *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* PAST *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ LAST WEEK ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>RECENT PAST *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ PAST *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HERETOFORE</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>FORETIME</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>LAST WEEK ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HISTORY *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* THEN *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ RECENT PAST ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ LAST WEEK</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>PREVIOUSLY *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>WHILOM *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>FORETIME *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ ONLY YESTERDAY *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ FORMERLY ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>AGO *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ DEAD PAST ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* EARLIER</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* AGO *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ THOU UNRELENTING PAST *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* PRIORLY *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HITHERTO</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* TIMES PAST ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HISTORY *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>YESTERDAY ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>THE PAST</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ BEFORE ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>YORE ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ LAST YEAR ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ PRIORLY *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* YESTERDAY</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* TIME</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* PAST TIMES *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ LANG SYNE ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>THOU UNRELENTING PAST ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>PAST TIMES</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BYGONE TIMES</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* PAST TIMES ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* YESTERDAY *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ EREWHILE</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* LANG SYNE ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* TIMES PAST</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* TIME ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* IN TIMES PAST ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ IN TIMES PAST *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>PAST HISTORY</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>EREWHILE ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>ONLY YESTERDAY ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>THEN ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* ERST ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ PAST</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HISTORY ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* EREWHILE ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BYGONE DAYS</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* YESTERYEAR ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* LAST WEEK *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BEFORETIME ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ ERST *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* PRIORLY ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ BEFORE</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* ONLY YESTERDAY</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>AFORETIME ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BEFORE</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ PRIORLY</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ RECENT PAST *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* RECENT PAST ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ PREHISTORICALLY *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>THOU UNRELENTING PAST *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* BEFORETIME ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ BEFORE *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HISTORY ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ PAST HISTORY</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>PREVIOUSLY ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>ONLY YESTERDAY</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* ERENOW *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ WHILOM ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* BYGONE TIMES ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>TIME ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ PREVIOUSLY</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ PREVIOUSLY ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ ERST</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ YESTERYEAR ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ FORETIME ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HISTORY</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ YESTERYEAR</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>YESTERDAY ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>YESTERDAY *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ THOU UNRELENTING PAST ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ PAST TIMES *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* RECENT PAST *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* THE PAST ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* PREHISTORICALLY *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>FORMERLY</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ FORMER TIMES</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ PRIORLY ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>FORMER TIMES ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ THEN *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>PAST ^</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ AFORETIME *</pattern>
+        <template>
+            <srai>YESTERDAY</srai>
+        </template>
+    </category>
+</aiml>

@@ -1,0 +1,46 @@
+{
+  "aiml": {
+    "category": {
+      "I LOVE YOU": {
+        "template": {
+          "random": [
+            {
+              "li": [
+                "I`m glad. I also feel a strong sense of unity with the world.",
+                "Love is all you need."
+              ]
+            }
+          ]
+        },
+        "srai": [
+          "I LOVE YOU ^",
+          "^ You are cool ^",
+          "You are cool *",
+          "You are cool ^",
+          "* luv u *",
+          "You are cool",
+          "* I LOVE YOU",
+          "I LOVE YOU *",
+          "^ I LOVE YOU ^",
+          "* You are cool *",
+          "^ You are cool *",
+          "* You are cool ^",
+          "* I LOVE YOU *",
+          "luv u",
+          "* luv u ^",
+          "* You are cool",
+          "* luv u",
+          "^ You are cool",
+          "luv u ^",
+          "^ luv u",
+          "^ luv u *",
+          "^ I LOVE YOU *",
+          "luv u *",
+          "^ I LOVE YOU",
+          "* I LOVE YOU ^",
+          "^ luv u ^"
+        ]
+      }
+    }
+  }
+}

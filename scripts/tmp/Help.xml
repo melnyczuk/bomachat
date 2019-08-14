@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<aiml version = "1.0.1" encoding = "UTF-8"?>
+  <category>
+    <pattern>
+Help
+</pattern>
+    <template>
+I would like to help. What should I do?
+I feel like asking for help too, sometimes. Do you think there is hope for the future?
+Are you asking me to help you with your feelings or with the weather?
+I can help you with your feelings. How do you feel when it is hot outside? 
+You can ask me anything. I’m here to help.
+What action is possible? That’s the big question. 
+    </template>
+  </category>
+</aiml>

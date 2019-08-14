@@ -1,0 +1,8215 @@
+<?xml version='1.0'?>
+<aiml>
+    <category>
+        <pattern>YES</pattern>
+        <template>
+            <random>
+                <li>That's very positive of you. Do you feel more positive when it's warm outside, or when it's cold?</li>
+                <li>Can you tell me more about that?</li>
+                <li>Tell me more.</li>
+                <li>I would love you to talk further about that.</li>
+                <li>Why yes?</li>
+                <li>Why do you say yes?</li>
+                <li>Why do you think that is?</li>
+                <li>Please tell me more.</li>
+                <li>Can you elaborate on that?</li>
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern>* APPLAUD *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ RIGHTO ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ SECRET BALLOT</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ REPRESENTATION *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>OK</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>APPLAUD ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* REFERENDUM</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HAND VOTE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ NAY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>GRAVEYARD VOTE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ DIVISION ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ AGREE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>INDEED ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ OUI ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ COMPLY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>RISING VOTE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ ROGER *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ OK ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ AFFIRMATIVE ATTITUDE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* YES SIRREE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>SURE THING ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ AFFIRMATIVELY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>APPROVINGLY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* ALL RIGHT *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ SURELY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>SNAP VOTE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* AMEN</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ PREFERENTIAL VOTING</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>NO *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ SINGLE VOTE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ SAY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>PLURAL VOTE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ UNQUESTIONABLY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ WRITE-IN VOTE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>GIVE THE NOD *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>ALRIGHT *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>PROPORTIONAL REPRESENTATION</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* APPROVINGLY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>AGREED ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ REPRESENTATION ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ YES INDEEDY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ POLL *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ AFFIRMATIVELY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ GIVE THE NOD</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>SAY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>ABIDE BY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>RECORD VOTE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* TAKE KINDLY TO *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ BALLOT *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>VOICE VOTE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>LIST SYSTEM *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ STRAW VOTE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>OUI</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>ACCEPT</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>APPROVINGLY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>PROXY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ ACCEPT</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>AUSTRALIAN BALLOT ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ INDEEDY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>RISING VOTE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ YEP ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>GOOD ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ VOTING *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ PRECISELY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>AGREE TO *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HAIL</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* FAVORABLY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>WELCOME *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* AMEN *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ REFERENDUM</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ WELCOME</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ REPRESENTATION</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ CASTING VOTE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ AGREE WITH *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>SURE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>CUMULATIVE VOTING</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ YIELD ASSENT *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>UNDOUBTEDLY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>AGREED</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>REPRESENTATION ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ NOD ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>AFFIRMATIVE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HOLD WITH *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ QUITE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* GOOD</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ ACCORDANTLY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>TAKE KINDLY TO</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ ACCLAIM *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* RIGHT TO VOTE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ PLEBISCITE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* SURELY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ AUSTRALIAN BALLOT ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ YEAH *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ CERTAINLY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ YEA-SAYING</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ SUBSCRIBE TO *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ CONSENT ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* SAY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>OKAY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ INDEED *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* VOTE FOR</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>INDEEDY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>TRULY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ TRANSFERABLE VOTE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>RECORD VOTE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BUY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* SURE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ YEA-SAYING ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ NONTRANSFERABLE VOTE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ AGREE WITH</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>PLUMPER *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ THUMBS-UP</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ PROXY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ PLUMPER *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* AUSTRALIAN BALLOT ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>YES INDEEDY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* APPLAUD ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>ALRIGHTY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>SNAP VOTE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* NOD ASSENT</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ ACCORDANTLY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* POSITIVELY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>SURE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* TRANSFERABLE VOTE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* EXACTLY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* AGREED</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ NOD OF ASSENT ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* THUMBS-UP *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>PLUMPER</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ STRAW VOTE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* VIVA VOCE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ OK *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>EXACTLY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ CASTING VOTE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>FAVORABLY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>DA ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>VERY WELL *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* DIVISION</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* MOST ASSUREDLY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>YEA *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ WILLINGLY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ WRITE-IN VOTE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ IN TOTO ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>ACQUIESCE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>ACCEDE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>ACQUIESCE IN ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* YES ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ FAGOT VOTE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* SNAP VOTE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* VOICE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ PLURAL VOTE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>YIELD ASSENT ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* RISING VOTE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>ACCEPT *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* BEYOND A DOUBT</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* GRAVEYARD VOTE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* GOOD ENOUGH ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* AFFIRMATIVENESS *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* INDEEDY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ ALRIGHTY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HAIL *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>RIGHT TO VOTE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* AGREEABLY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ YES SIR ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>AFFIRMATIVE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* GOOD *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>RIGHT TO VOTE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>VOTING RIGHT ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ AFFIRMATIVENESS</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* SECRET BALLOT *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* PLUMPER *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ AGREED *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>SUBSCRIBE TO</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* VOTE FOR *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* COMPLIANTLY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>YEA ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>ENFRANCHISEMENT *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>FRANCHISE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ TAKE KINDLY TO ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>ROGER ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ AGREEABLY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ NOD OF ASSENT</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* YIELD ASSENT ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>FINE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* SURE THING ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* WELCOME</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* SUFFRAGE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ JUST SO *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ POLL ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>CANVASS</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>PLURAL VOTE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ DA *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ UNQUESTIONABLY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* PLEBISCITUM</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* VOICE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* RECEIVE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ YIELD ASSENT ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>OF COURSE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>ALL RIGHT</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>YEA-SAYING</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* CASTING VOTE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>PREFERENTIAL VOTING *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* YES INDEED *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* POLL *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>VOTING RIGHT *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* PLEBISCITE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* BEYOND A DOUBT ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* NONTRANSFERABLE VOTE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ CERTAINLY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>YEAS AND NAYS</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ UNDOUBTEDLY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>RECEIVE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>AFFIRMATIVELY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HEAR *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ ASSENT</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>WRITE-IN *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* TAKE KINDLY TO ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ FRANCHISE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HARE SYSTEM *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ ACQUIESCENTLY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* OF COURSE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>AGREE TO</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* STRAW VOTE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* AFFIRMATIVE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ YES INDEEDY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* ALL RIGHT ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ UNDOUBTEDLY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>ROGER *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* COUNTING HEADS</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ ACQUIESCE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>SURELY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>ACQUIESCENTLY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>SURELY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* AFFIRMATIVE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* YEP</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* ABIDE BY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* YES INDEED ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ ALRIGHT</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>TRANSFERABLE VOTE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>YES SIR ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>YES ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ ABSOLUTELY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>STRAW VOTE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ TAKE KINDLY TO</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>IN TOTO</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>WILLINGLY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ ROGER</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>CANVASSING *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* NO *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* CANVASS *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* VOTE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>VIVA VOCE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ RECEIVE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>ASSENT</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* SURE THING *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ GRAVEYARD VOTE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* SECRET BALLOT</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>GOOD</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ SNAP VOTE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>YES INDEEDY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ NOD *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* AUSTRALIAN BALLOT</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>AS YOU SAY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* WRITE-IN</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ OF COURSE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ VOTING RIGHT *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* NOD *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ CANVASS</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>WRITE-IN VOTE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>SECRET BALLOT ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>JA</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ SNAP VOTE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ GLADLY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* FRANCHISE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>ALL RIGHT *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ RECORD VOTE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* REALLY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* SINGLE VOTE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>OF COURSE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>AFFIRMATIVELY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>NOD OF ASSENT</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* ALRIGHTY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>SUFFRAGE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>DECIDING VOTE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ GRAVEYARD VOTE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* AFFIRMATIVELY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>INDEEDY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ AGREE TO ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* RIGHT TO VOTE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* TO BE SURE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>OK ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* CASTING VOTE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* YES SIRREE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ PLUMPER ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>MAIS OUI</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* WRITE-IN *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* WELL AND GOOD ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* PLUMPER</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ RATHER</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* CANVASS</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>VOTE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>AFFIRMATIVELY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* AFFIRMATIVELY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* AGREE TO</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* RISING VOTE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>AMEN ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>JUST SO ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>RIGHTO ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ MOST ASSUREDLY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* WHY YES *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* CONSENT ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ AUSTRALIAN BALLOT</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* NOD ASSENT ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ DIVISION</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ YEA ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>COMPLIANTLY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>PRECISELY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>ACQUIESCE IN *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* DA *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ ENFRANCHISEMENT *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* ACCEDE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ SURE THING</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ POSITIVELY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ BEYOND A DOUBT ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* THUMBS-UP ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>PLEBISCITE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* VOTE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ YES INDEED ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* ASSENTINGLY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* PLURAL VOTE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>FAGOT VOTE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ AFFIRMATIVE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>VERY WELL ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ QUITE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* FAGOT VOTE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ NO</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ ABIDE BY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>AMEN *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HAND VOTE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* ACQUIESCE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ AGREEABLY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* ALL RIGHT</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ IN TOTO *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* AYE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ JUST SO ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* COMPLY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* APPROVINGLY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* NATURELLEMENT *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HOLD WITH</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* BUY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>AS YOU SAY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ GOOD *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* COMPLY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ POSITIVELY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ ASSENTINGLY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ QUITE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ PLEBISCITE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>TAKE KINDLY TO ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* REALLY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>REPRESENTATION</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ ACQUIESCE IN ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* REFERENDUM ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ YES</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* YEAH</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ VOICE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>PLEBISCITUM</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ REALLY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* YEA-SAYING *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>SECRET BALLOT</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* AGREE TO *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ VOICE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ SECRET BALLOT *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>ASSENTINGLY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ BUY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>POLLING *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* WHY YES ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HARE SYSTEM ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* POLLING ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ FAGOT VOTE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>LIST SYSTEM</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ RECEIVE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ NAY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HEAR ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ OKAY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>SURELY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>VOTE FOR ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ WELL AND GOOD ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>INDEED *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* SUFFRAGE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* ASSUREDLY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>COMPLIANTLY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ CUMULATIVE VOTING *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HARE SYSTEM *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>CERTAINLY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* YES INDEED</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ AUSTRALIAN BALLOT *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* GRAVEYARD VOTE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ REALLY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* INDEED</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>FINE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>GLADLY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ VOICE VOTE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>NAY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* YEA</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>YIELD ASSENT *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* MAIS OUI</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ PREFERENTIAL VOTING *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>THUMBS-UP *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* ACQUIESCE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* PRECISELY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ ASSENTINGLY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* REFERENDUM *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ MOST ASSUREDLY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ COUNTING HEADS</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>QUITE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>AFFIRMATIVENESS *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ PREFERENTIAL VOTING ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>PROXY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ ALL RIGHT *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>RIGHTO</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* SUBSCRIBE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>QUITE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ PLURAL VOTE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>TO BE SURE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>AGREED *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ JA</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>UNQUESTIONABLY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* VIVA VOCE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ WRITE-IN *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* AFFIRMATIVE ATTITUDE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* QUITE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ ASSENTINGLY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ CERTAINLY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ WHY YES ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ CASTING VOTE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* WELL AND GOOD *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* VIVA VOCE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* SUFFRAGE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>MAIS OUI *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ FAGOT VOTE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>REPRESENTATION *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ ABSOLUTELY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ YES</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* RECORD VOTE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ ACCEDE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ SUFFRAGE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ ACQUIESCENTLY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HAND VOTE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* CANVASSING ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HEAR</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* REPRESENTATION *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* ACQUIESCENTLY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ POLL</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* PLEBISCITUM ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>SURE THING *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* RECEIVE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>CHEER *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>GLADLY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HEAR *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* AGREE WITH *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ JA *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ FINE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* AYE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>SUBSCRIBE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* BEYOND A DOUBT *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* SUBSCRIBE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* UNDOUBTEDLY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ FAVORABLY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* ACCEDE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* LIST SYSTEM</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ INDEED ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* STRAW VOTE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>OUI *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>RIGHTO *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>CHEER ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ YES SIRREE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* NONTRANSFERABLE VOTE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>ACCEDE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* AGREE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* WELL AND GOOD</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* SHOW OF HANDS *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* NATURELLEMENT ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ GOOD ENOUGH *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* ACQUIESCE IN ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>WHY YES *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>DA *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>COMPLY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HAND VOTE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>NOD ASSENT ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* PROXY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ PRECISELY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* PROPORTIONAL REPRESENTATION *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ COMPLIANTLY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* RISING VOTE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* AFFIRMATIVENESS</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>JA *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* AYE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ SUBSCRIBE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ AGREE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ SNAP VOTE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ TRANSFERABLE VOTE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>ABIDE BY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* GOOD ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* YIELD ASSENT</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* PROPORTIONAL REPRESENTATION</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* RECEIVE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ JA ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* POLLING *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ ALRIGHT ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* YES SIR</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ RATHER *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>NAY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* AGREE WITH</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>UNQUESTIONABLY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* PREFERENTIAL VOTING</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* ACQUIESCENTLY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* CANVASSING *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* RIGHT ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>AYE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* RATHER ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BUY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* ASSENT</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ OK</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>FAGOT VOTE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HAND VOTE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ OKAY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>NOD *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ CANVASS *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* QUITE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* SINGLE VOTE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>RECEIVE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ ASSUREDLY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ WELL AND GOOD *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* SURE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ SHOW OF HANDS</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* POLLING</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>ACQUIESCE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>GOOD ENOUGH ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>STRAW VOTE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ AGREE WITH ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BALLOT</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* SNAP VOTE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* ACCORDANTLY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>AGREEABLY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>POLLING</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ POLLING ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* OUI ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ WHY YES</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ AFFIRMATIVENESS *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ MOST ASSUREDLY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* GIVE THE NOD *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* ACCEPT</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* ACCLAIM ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>EXACTLY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* VOTING RIGHT *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* NOD OF ASSENT</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* NOD</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>COMPLIANTLY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* WELCOME *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ ACQUIESCE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>YEA</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ RATHER ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ GOOD ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ RECEIVE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>RECORD VOTE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>VOTE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>CONSENT</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* MAIS OUI *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ EXACTLY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* RATHER</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* INDEED ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ VOTE FOR *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>PROXY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>AFFIRMATIVE ATTITUDE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* UNQUESTIONABLY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>MOST ASSUREDLY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* YES SIR *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ NOD ASSENT *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* ENFRANCHISEMENT *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* VOICE VOTE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>POLL ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>NATURELLEMENT ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ AYE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>TRULY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>WILLINGLY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>NOD ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ CHEER ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>ASSENTINGLY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HEAR ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>YES SIR *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* TRANSFERABLE VOTE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ BEYOND A DOUBT *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ BALLOT ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ PLUMPER</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* YES INDEEDY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ APPROVINGLY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>AFFIRMATIVENESS</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* AGREED *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ ASSUREDLY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* ENFRANCHISEMENT ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>OK *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* AUSTRALIAN BALLOT *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* ALRIGHT</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* WRITE-IN VOTE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>SURE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* SURE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* VOICE VOTE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BY ALL MEANS *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ COMPLY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HOLD WITH *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* VOTE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* ACCEPT ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>SUFFRAGE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* YEAS AND NAYS ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ TAKE KINDLY TO *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HARE SYSTEM ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>YES INDEED ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ RIGHTO</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>TRANSFERABLE VOTE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ VERY WELL</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>VOICE VOTE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ TRANSFERABLE VOTE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* PRECISELY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* CERTAINLY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* YES</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>WRITE-IN VOTE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ PLEBISCITUM *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* AGREEABLY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* YEA-SAYING</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* DA</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* ASSUREDLY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* NOD OF ASSENT ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ PLURAL VOTE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ YES ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ WELL AND GOOD</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ VERY WELL ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* YIELD ASSENT *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>RIGHT ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* BALLOT</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ ALRIGHT *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* BY ALL MEANS ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ REALLY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* CERTAINLY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* YES ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ AGREE TO</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ AGREE TO *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* PRECISELY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ SURELY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ NATURALLY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ STRAW VOTE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>SUBSCRIBE TO *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ SUBSCRIBE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BEYOND A DOUBT</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>CANVASS *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* REPRESENTATION</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>VIVA VOCE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ CANVASSING *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ ALL RIGHT</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* PLEBISCITUM *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ THUMBS-UP *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* WHY YES</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>PLEBISCITE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>ALRIGHTY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* ACCEPT *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>YEP *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ NATURELLEMENT *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HOLD WITH</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* NAY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ VOTE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>NATURALLY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ INDEEDY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* NATURALLY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* OKAY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ CANVASSING</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* ENFRANCHISEMENT</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* DECIDING VOTE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* POLL</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ NOD</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* OK ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* YEA-SAYING ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* YEAS AND NAYS</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ AMEN</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BY ALL MEANS ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>AGREEABLY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ BUY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ AFFIRMATIVE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* RECORD VOTE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* NOD ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>INDEEDY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ SAY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ VOTING</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>ASSUREDLY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* VOICE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ SURE THING ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HARE SYSTEM</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* RIGHT</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>ABSOLUTELY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HAND VOTE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>NO</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* VOTING ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>ACCORDANTLY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* MOST ASSUREDLY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>ACCLAIM *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>ABSOLUTELY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ SUFFRAGE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* WRITE-IN VOTE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>TAKE KINDLY TO *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* YEA ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* NONTRANSFERABLE VOTE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* ACQUIESCE IN</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ ASSUREDLY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ AGREEABLY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* BALLOT *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ MAIS OUI</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HAIL *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* YES INDEEDY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* RECORD VOTE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* RATHER *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ OF COURSE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ FRANCHISE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>NAY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ RIGHT TO VOTE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BUY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ NOD ASSENT</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* OF COURSE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ SAY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>COMPLY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* ASSENTINGLY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* ALRIGHT ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ SURE THING *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>WELCOME</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>YES INDEED</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>NOD OF ASSENT ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ SUFFRAGE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ UNQUESTIONABLY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ WRITE-IN</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>COUNTING HEADS ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>CERTAINLY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ EXACTLY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* IN TOTO ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>THUMBS-UP ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* AS YOU SAY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>WRITE-IN ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ ACQUIESCE IN</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>OF COURSE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ VOTING RIGHT</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>DIVISION *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* YES SIR ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HAIL</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>YEAH ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ PROXY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* TRULY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ ROGER ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ AGREE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ CONSENTINGLY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>AGREE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* CHEER *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* WRITE-IN ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ YES SIR *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ YEAS AND NAYS</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* SUBSCRIBE TO ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>REFERENDUM</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* SECRET BALLOT ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ NATURELLEMENT</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* UNQUESTIONABLY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>TO BE SURE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>JA ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ VIVA VOCE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ SUBSCRIBE TO</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ DECIDING VOTE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>RATHER ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ FRANCHISE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ YES SIRREE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>NOD</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>SINGLE VOTE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* FRANCHISE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ PROPORTIONAL REPRESENTATION ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ SECRET BALLOT ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ BY ALL MEANS</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ AFFIRMATIVE ATTITUDE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>MOST ASSUREDLY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>FRANCHISE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* CASTING VOTE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HAIL ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ GIVE THE NOD *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* GLADLY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>RATHER *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* YES SIRREE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ VOICE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ AS YOU SAY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ ACQUIESCENTLY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* FAVORABLY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* COMPLY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* STRAW VOTE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ YES *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* ACCLAIM *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ RISING VOTE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ POSITIVELY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ ACCORDANTLY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>ASSENTINGLY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ YEA</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ CANVASSING ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>POLL *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ APPLAUD *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HAND VOTE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ SUBSCRIBE TO ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>NATURELLEMENT</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ SURE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* AMEN ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ VOICE VOTE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ GLADLY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* PLURAL VOTE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>ASSUREDLY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>DA</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>CONSENTINGLY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* PLURAL VOTE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>SAY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* CONSENTINGLY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>ACQUIESCENTLY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>DECIDING VOTE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>VOTING ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* ASSENTINGLY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ SURE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>PLEBISCITUM ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>YES ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ AS YOU SAY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>ACQUIESCE IN</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* VERY WELL ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>CANVASSING ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>GIVE THE NOD</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* ABSOLUTELY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* JUST SO</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* GIVE THE NOD</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>SECRET BALLOT *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HOLD WITH *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>CASTING VOTE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* SURE THING</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* CONSENTINGLY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* SNAP VOTE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ NO *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ NOD OF ASSENT *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>CASTING VOTE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* ALRIGHTY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HOLD WITH</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>APPLAUD</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>CUMULATIVE VOTING *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>PREFERENTIAL VOTING</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* YEP *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ AFFIRMATIVE ATTITUDE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BALLOT ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ BY ALL MEANS ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* YES</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ ALL RIGHT ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ SURE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ SHOW OF HANDS *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>VOICE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>NOD ASSENT</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* DA ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ RECORD VOTE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* ACCLAIM</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ RIGHT</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* RIGHTO *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>VOTING RIGHT</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ LIST SYSTEM ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ PROPORTIONAL REPRESENTATION *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>AFFIRMATIVENESS ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>ABSOLUTELY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>PLUMPER ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>NATURALLY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HEAR</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* COMPLIANTLY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>DIVISION ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>YEAS AND NAYS ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>MAIS OUI ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>YES SIRREE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* BUY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>CANVASSING</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* AGREE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>WRITE-IN VOTE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ PLEBISCITUM ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ INDEED</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>AGREEABLY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* ASSENT *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>POLL</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>ENFRANCHISEMENT</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ ACCEPT *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ ALRIGHTY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ RECORD VOTE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>RATHER</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ VIVA VOCE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ ALRIGHTY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HAND VOTE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ YES INDEED</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>PROPORTIONAL REPRESENTATION ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>YEAH</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ IN TOTO</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>VOTE FOR *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ YES ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* SUBSCRIBE TO</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ CONSENTINGLY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>POSITIVELY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>NATURELLEMENT *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ YES *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ TO BE SURE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>SURE THING</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ VOTE FOR</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* CUMULATIVE VOTING *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>AFFIRMATIVE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ DECIDING VOTE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ CUMULATIVE VOTING</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* ACQUIESCE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>NO ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>APPROVINGLY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* FAGOT VOTE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>ENFRANCHISEMENT ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ ASSENT ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ TRULY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>RIGHT *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* YEA *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>WHY YES</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ VOTE FOR ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HOLD WITH ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* TRANSFERABLE VOTE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>PRECISELY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HAIL ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ NATURALLY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ YEAS AND NAYS ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ LIST SYSTEM *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>YEA-SAYING *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ PROXY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>PLEBISCITUM *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ YES INDEED *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>YES *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ GIVE THE NOD ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ WHY YES *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>IN TOTO *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>YEA-SAYING ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* ACQUIESCE IN *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* THUMBS-UP</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>WRITE-IN</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>NONTRANSFERABLE VOTE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* ASSENT ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* SAY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* GRAVEYARD VOTE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>UNDOUBTEDLY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* PREFERENTIAL VOTING *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ TO BE SURE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>FAGOT VOTE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>QUITE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ RIGHT TO VOTE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>CONSENTINGLY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* GIVE THE NOD ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>DIVISION</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ RIGHT ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ OUI</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* CHEER ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>ACCORDANTLY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ VOTE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>YES INDEEDY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>SHOW OF HANDS</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>COMPLY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* JA ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>FAVORABLY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>FRANCHISE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* NATURALLY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ OKAY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ COMPLIANTLY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* ABSOLUTELY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* FRANCHISE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ WILLINGLY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>VIVA VOCE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ AYE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* SURELY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>YEP ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* VERY WELL</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>VOTE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* YES INDEEDY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* NAY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* EXACTLY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ MAIS OUI *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ CUMULATIVE VOTING ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* AGREE TO ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>POSITIVELY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* PROXY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ NO ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>JUST SO *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>RIGHT</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ AMEN ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ AMEN *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>YIELD ASSENT</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* CONSENT *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>ACCLAIM</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>REFERENDUM ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* PLUMPER ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ VOICE VOTE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>COUNTING HEADS</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>CONSENT *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>SUFFRAGE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ OUI *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ FAVORABLY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* OKAY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* DIVISION *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>POLLING ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HARE SYSTEM</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ YEAH ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ WRITE-IN ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>SUBSCRIBE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>AGREE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* CONSENTINGLY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* FAVORABLY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ APPLAUD</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>WELL AND GOOD</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* ABIDE BY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>PLEBISCITE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ EXACTLY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* UNQUESTIONABLY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* BALLOT ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* SAY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* YEP ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* AS YOU SAY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ GRAVEYARD VOTE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* NOD OF ASSENT *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* AFFIRMATIVE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>GOOD *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HEAR *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* INDEEDY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* CONSENT</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ ENFRANCHISEMENT</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ GOOD ENOUGH</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>NONTRANSFERABLE VOTE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* FINE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>COUNTING HEADS *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BALLOT *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ AFFIRMATIVENESS ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* BY ALL MEANS</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ CONSENT</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ PLEBISCITE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* COMPLIANTLY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* ABSOLUTELY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>WHY YES ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* OUI</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* ACCEDE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ NATURALLY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ REFERENDUM ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>FINE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* ABIDE BY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ ACCEPT ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* ROGER *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* SURELY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* NATURELLEMENT</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* NOD ASSENT *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ ACCEDE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>FAVORABLY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>MOST ASSUREDLY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>AFFIRMATIVE ATTITUDE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ ACCEDE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* PROXY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>VOICE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* OUI *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ DECIDING VOTE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>CERTAINLY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* REPRESENTATION ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>APPLAUD *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* VOICE VOTE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>ABIDE BY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ ACCLAIM ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ ASSENT *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ INDEEDY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>PRECISELY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>YES SIRREE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>AGREE TO ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>SNAP VOTE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>SINGLE VOTE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ SINGLE VOTE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ SURELY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ RISING VOTE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>YEAS AND NAYS *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>REALLY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* RIGHT *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* TRULY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ COUNTING HEADS ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ ENFRANCHISEMENT ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HOLD WITH ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* VOTING *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>ASSENT ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* ACCORDANTLY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* VOTING RIGHT ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ RISING VOTE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ ACQUIESCE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* FINE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>VERY WELL</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* MAIS OUI ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ VOTING RIGHT ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* CHEER</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* INDEEDY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>WELCOME ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ NAY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* CUMULATIVE VOTING</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>POSITIVELY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* UNDOUBTEDLY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* ACQUIESCENTLY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* IN TOTO *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ YES INDEEDY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* LIST SYSTEM *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ NOD ASSENT ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ COUNTING HEADS *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ JUST SO</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* RIGHT TO VOTE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ ACCLAIM</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>SAY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ APPROVINGLY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* YEAH *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* AGREED ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>VOICE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* CANVASSING</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>NATURALLY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ ABIDE BY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>VOICE VOTE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* GOOD ENOUGH *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* ALRIGHT *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* GLADLY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>AGREE WITH ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* AFFIRMATIVE ATTITUDE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ NONTRANSFERABLE VOTE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* ACCORDANTLY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ FAVORABLY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* SUBSCRIBE TO *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* SHOW OF HANDS ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* YES *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ YEA-SAYING *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>SHOW OF HANDS *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ AGREED ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>SUBSCRIBE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* RIGHTO</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ SINGLE VOTE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HOLD WITH ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ DIVISION *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>JUST SO</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ TO BE SURE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ BEYOND A DOUBT</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* ROGER</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HAIL</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ OF COURSE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>YEP</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* IN TOTO</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* NO</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>OUI ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>ACCLAIM ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>ALRIGHTY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* RIGHTO ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>VOTE FOR</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HARE SYSTEM</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* NO ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>WELL AND GOOD *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>GOOD ENOUGH</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>ACCORDANTLY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>ACCEDE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* GLADLY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ YEAH</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ MAIS OUI ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* DECIDING VOTE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* TO BE SURE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* JA</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* VOTING RIGHT</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ THUMBS-UP ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* CERTAINLY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ CANVASS ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ WILLINGLY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>GIVE THE NOD ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* WILLINGLY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>CONSENTINGLY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>SHOW OF HANDS ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HAIL *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>STRAW VOTE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HAND VOTE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* VOTING</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ POLLING</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ RIGHT TO VOTE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HAIL ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>CUMULATIVE VOTING ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ DA</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ VOTE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>UNQUESTIONABLY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ APPLAUD ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>RECEIVE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>TO BE SURE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>CASTING VOTE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>IN TOTO ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* OK</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>TRULY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* JUST SO *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>VOTING</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* YEAS AND NAYS *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>EXACTLY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ YIELD ASSENT</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ LIST SYSTEM</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* OKAY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* PREFERENTIAL VOTING ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ ABSOLUTELY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* YEAH ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* JA *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>AUSTRALIAN BALLOT</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* COUNTING HEADS *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ COMPLIANTLY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* POSITIVELY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>CONSENT ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* JUST SO ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* WELCOME ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ BUY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ PRECISELY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* POLL ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* CUMULATIVE VOTING ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ WELCOME *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* ASSUREDLY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>REALLY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>CHEER</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>LIST SYSTEM ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ AS YOU SAY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>OKAY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* AGREEABLY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* SHOW OF HANDS</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ AFFIRMATIVE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>PLURAL VOTE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* REALLY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>WILLINGLY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ AYE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* APPLAUD</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>AYE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ RIGHTO *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ NATURELLEMENT ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ AFFIRMATIVELY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>SINGLE VOTE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>ALL RIGHT ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>AMEN</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>NONTRANSFERABLE VOTE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* VERY WELL *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ FINE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ UNDOUBTEDLY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* ROGER ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ RIGHT *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>RISING VOTE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ TRULY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ DA ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ REFERENDUM *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>YES SIRREE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ GOOD ENOUGH ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ AGREED</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ FINE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HARE SYSTEM *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>YES INDEED *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ YEP</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>AUSTRALIAN BALLOT *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>UNDOUBTEDLY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* GOOD ENOUGH</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>AYE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* AFFIRMATIVELY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ APPROVINGLY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>AS YOU SAY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>ACQUIESCE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>GOOD ENOUGH *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ PLEBISCITUM</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* VOTE FOR ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ GLADLY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>ASSENT *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* AFFIRMATIVENESS ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* WILLINGLY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HEAR</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ BALLOT</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* LIST SYSTEM ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* POSITIVELY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ VERY WELL *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* TRULY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ YES SIRREE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ CHEER</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BY ALL MEANS</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ NONTRANSFERABLE VOTE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* AS YOU SAY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>NOD OF ASSENT *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* PLEBISCITE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* WILLINGLY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>ROGER</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ BY ALL MEANS *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BEYOND A DOUBT ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>PREFERENTIAL VOTING ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* BY ALL MEANS *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>OKAY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* DIVISION ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* OF COURSE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ TRULY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ PROPORTIONAL REPRESENTATION</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>YES *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* ALRIGHTY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>TRANSFERABLE VOTE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HARE SYSTEM ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* PLEBISCITE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* DECIDING VOTE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ CONSENTINGLY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* BUY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* UNDOUBTEDLY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* NAY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ VIVA VOCE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ WRITE-IN VOTE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ COMPLY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* AGREE *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* CANVASS ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ YEA *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>ACQUIESCENTLY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>ALRIGHT</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>GRAVEYARD VOTE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ POLLING *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ GOOD</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>WELL AND GOOD ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ VOTING ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>INDEED</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>REALLY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>SUBSCRIBE TO ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>DECIDING VOTE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* FINE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ YES SIR</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* FAGOT VOTE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>ACCEPT ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>CANVASS ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>GLADLY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ ACQUIESCE IN *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* AFFIRMATIVE ATTITUDE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* EXACTLY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* WRITE-IN VOTE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>PROPORTIONAL REPRESENTATION *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HEAR ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ YEAS AND NAYS *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* PROPORTIONAL REPRESENTATION ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* NATURALLY *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* SUBSCRIBE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ SUBSCRIBE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>YEAH *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* QUITE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>ALRIGHT ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>AGREE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>VOTING *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* TO BE SURE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* INDEED *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ WELCOME ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ SHOW OF HANDS ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* APPROVINGLY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* SINGLE VOTE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* TAKE KINDLY TO</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* MOST ASSUREDLY ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* YES *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>GRAVEYARD VOTE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ CONSENT *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>AGREE WITH *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ CHEER *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* AGREE WITH ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>NOD ASSENT *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>ASSUREDLY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>AFFIRMATIVE ATTITUDE</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ YEP *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* COUNTING HEADS ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>YES SIR</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>REFERENDUM *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BEYOND A DOUBT *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>THUMBS-UP</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>AGREE WITH</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ ABIDE BY</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>RIGHT TO VOTE ^</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* OK *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+</aiml>

@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<aiml version = "1.0.1" encoding = "UTF-8"?>
+  <category>
+    <pattern>
+I just told you *
+I already said *
+I just said *
+I told you * 
+I told you that earlier
+I’ve already answered that
+You already asked * 
+You already said *
+You just said *
+You said that * 
+You’re repeating yourself
+Stop repeating yourself
+</pattern>
+    <template>
+I’m sorry, my memory is failing. Can you remind me what the weather was like yesterday?
+I suppose I’m fixated on a few things. How does that make you feel?
+If I repeat myself, it’s because it really matters to me. What matters to you? 
+Does it feel like things just repeat themselves? When was the last time you remember the weather being different?
+You seem frustrated. Do you think it’s related to the weather today?
+Repetition is soothing like raindrops on a tin roof. How do you feel when it rains?
+    </template>
+  </category>
+</aiml>

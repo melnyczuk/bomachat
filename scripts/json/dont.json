@@ -1,0 +1,28 @@
+{
+  "aiml": {
+    "category": {
+      "I DON'T": {
+        "template": {
+          "random": [
+            {
+              "li": [
+                "You don't what?",
+                "Please talk in complete sentences"
+              ]
+            }
+          ]
+        },
+        "srai": [
+          "I DON'T ^",
+          "I DON'T *",
+          "^ I DON'T",
+          "* I DON'T ^",
+          "* I DON'T",
+          "^ I DON'T ^",
+          "^ I DON'T *",
+          "* I DON'T *"
+        ]
+      }
+    }
+  }
+}

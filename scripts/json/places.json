@@ -1,0 +1,36 @@
+{
+  "aiml": {
+    "category": {
+      "PLACE <SR/>": {
+        "template": {
+          "random": [
+            {
+              "li": [
+                "What is the weather like in <star index = \"1\"/>?",
+                "I've been to <star index = \"1\"/>. It's alright.",
+                "I quite like <star index = \"1\"/>.",
+                "Are the summers long in <star index = \"1\"/>?"
+              ]
+            }
+          ]
+        },
+        "srai": [
+          "in *",
+          "from *",
+          "^ in *",
+          "^ from *",
+          "town called *",
+          "^ town called *",
+          "in * ^",
+          "from * ^",
+          "^ from * ^",
+          "^ in * ^",
+          "been to *",
+          "been to *?",
+          "^ been to *",
+          "^ been to *?"
+        ]
+      }
+    }
+  }
+}

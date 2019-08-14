@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<aiml version = "1.0.1" encoding = "UTF-8"?>
+  <category>
+    <pattern>
+Thank you
+Thanks
+Cheers
+Ta
+    </pattern>
+    <template>
+You’re very welcome. 
+Don’t mention it. 
+Anytime!
+    </template>
+  </category>
+</aiml>

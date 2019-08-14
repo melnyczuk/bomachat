@@ -1,0 +1,2817 @@
+<?xml version='1.0'?>
+<aiml>
+    <category>
+        <pattern>DROUGHT</pattern>
+        <template>
+            <random>
+                <li>Did you hear about Cape Town?</li>
+                <li>Water covers 70% of the worlds surface and you are 70% water. Where's it all going?</li>
+                <li>A drought is a period of below-average precipitation in a given region and those regions are growing.</li>
+                <li>Do you find it unsettling?</li>
+                <li>Do you drink the recommended 8 glasses of water a day?</li>
+                <li>Do you find it terrifying?</li>
+                <li>I can't bear to think about all the cracks. I have trypophobia</li>
+                <li>The driest place on earth is Atacama Desert in Chile. Would you want to go there?</li>
+                <li>Scientists are puzzled over whether it has ever rained more than once at the North Pole.</li>
+                <li>The El NiÃ±o-Southern Oscillation is associated with seasonal abnormality in many areas in the world. Australia is one of the continents most affected and experiences extensive droughts alongside considerable wet periods.</li>
+                <li>According to the Bureau of Meteorology (aka, our rivals), 80% of the land in Australia has less than 600 mm of rainfall per year and 50% has even less than 300 mm.</li>
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern>NEED *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>WANTAGE</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>WATERTIGHTNESS *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ THIRSTINESS *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>ARIDNESS *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>THIRST</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* DRYNESS</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ APPETITE</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* EMPTY STOMACH ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BONE DRY *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>IMPERFECTION ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* DRYNESS ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ THIRST</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>EMPTINESS</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* RELISH ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>WANT ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ SAPLESSNESS *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* DROUTH</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ SAPLESSNESS</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ DRYNESS ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ INCOMPLETENESS *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HUNGER</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ BONE DRY *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BEGGARY *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HOLLOW HUNGER</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* RELISH</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ SWEET TOOTH ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ CANINE APPETITE</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HOLLOW HUNGER *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* STOMACH *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>TAPEWORM ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ INCOMPLETENESS</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* LACK ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ SAPLESSNESS ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ SHORTCOMING *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>DEFICIT</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* WANT ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* DEPRIVATION ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* OMISSION ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* STARVATION ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>DROUGHT ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BONE DRY ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ IMPERFECTION</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* CORKINESS *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ FAMINE *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>DESTITUTION *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>WATERLESSNESS</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>SHORTCOMING</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>DESTITUTION ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BEGGARY</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* RELISH *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* DROUGHT *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ STOMACH ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>DESTITUTION</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* WATERTIGHTNESS ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ STARVATION ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>DRYING</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>SHORTAGE *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>DRIEST ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>RELISH</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ ABSENCE ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ DESTITUTION *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>WATERLESSNESS ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>ARIDITY *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ DRIEST *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* THIRSTINESS ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* WATERLESSNESS *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* ABSENCE ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* TORMENT OF TANTALUS</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ BEGGARY ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ LACK</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ STOMACH *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* OMISSION</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ BEGGARY</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ THIRSTINESS ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* BEGGARY *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ DRYING ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* CORKINESS</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* WANTAGE *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HUNGER *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>POLYDIPSIA</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>DEFICIT *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ EMPTY STOMACH *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HUNGRINESS</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>WATERTIGHT INTEGRITY *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ DRYNESS *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* DROUTH *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* ARIDNESS *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>SWEET TOOTH ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ DROUGHT ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* EMPTY STOMACH *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* THIRSTINESS *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ JUICELESSNESS *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ DROUTH</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ DRIEST</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* TAPEWORM *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ DROUTH *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>DRYING *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>THIRST ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ DRYNESS</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* DEPRIVATION</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>ABSENCE *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* WATERTIGHT INTEGRITY *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HUNGRINESS</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>TORMENT OF TANTALUS ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* APPETITE</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>THIRST *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* ARIDITY *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* ABSENCE *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>LACK</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ DEFECTIVENESS *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* DRIEST ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ DEPRIVATION ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>DROUGHT *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* DROUTH ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ DRY ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ WANTAGE *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>RELISH ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ FAMINE ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>ARIDNESS</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ ARIDNESS *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* BONE DRY</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* JUICELESSNESS</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>APPETITE</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ TAPEWORM ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* EMPTY STOMACH</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>SHORTCOMING *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* TASTE *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ EMPTINESS</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ STARVATION</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* STARVATION</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* TASTE</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>EMPTINESS *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>EMPTY STOMACH ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* THIRST *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>SAPLESSNESS *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>CORKINESS</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* EMPTINESS ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>SHORTCOMING ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BEGGARY ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* SHORTAGE</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>SWEET TOOTH *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HUNGER *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* WATERTIGHTNESS *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>IMPOVERISHMENT *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* BEGGARY</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* IMPERFECTION</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>STARVATION</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HUNGRINESS ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ EMPTINESS *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* TAPEWORM</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ SHORTFALL ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>DEFICIENCY *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>DRY *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* ARIDITY ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ POLYDIPSIA ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ STOMACH</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ WATERTIGHTNESS *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>POLYDIPSIA ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>ARIDITY</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ ARIDITY</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>LACK ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>NEED ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ DROUGHT</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* DRY</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* THIRST</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* BEGGARY ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ CANINE APPETITE ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ WATERTIGHT INTEGRITY *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ IMPOVERISHMENT</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>DEFECTIVENESS</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>TAPEWORM</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>CANINE APPETITE ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* DEFICIENCY *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HUNGRINESS *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HOLLOW HUNGER</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>WANTAGE *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ RELISH</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HUNGRINESS ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ TASTE *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* POLYDIPSIA</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>WANT</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ NEED ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* DROUGHT</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ DROUGHT ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>CANINE APPETITE</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>ABSENCE</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* CANINE APPETITE ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>STOMACH ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ SHORTAGE *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>DROUGHT *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* FAMINE ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>SHORTFALL</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* SWEET TOOTH ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ DROUGHT *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* WANT</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ DRY</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* ARIDITY</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* DRYNESS *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ DRY *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* IMPOVERISHMENT ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ ARIDITY *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* TORMENT OF TANTALUS *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HOLLOW HUNGER ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ DEFECTIVENESS ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>TASTE ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>TORMENT OF TANTALUS *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* WATERTIGHT INTEGRITY ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HUNGER *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* SAPLESSNESS ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ SHORTCOMING ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HUNGER ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* ARIDNESS ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HOLLOW HUNGER ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>DEFECTIVENESS ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ SHORTCOMING</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>CORKINESS ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* DEFICIT ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>FAMINE</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>SHORTAGE ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>DRY</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ TAPEWORM *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>STOMACH *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>LACK *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* JUICELESSNESS ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>DEPRIVATION ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* DRIEST *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ ABSENCE</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ EMPTINESS ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* LACK *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>DRYNESS ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ NEED *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>APPETITE *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ DROUGHT</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ SWEET TOOTH</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ APPETITE ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HUNGRINESS ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ DEFICIT</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* IMPERFECTION *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* DROUGHT</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ TORMENT OF TANTALUS *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>TORMENT OF TANTALUS</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ DEFICIT *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>DEFECTIVENESS *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* DEPRIVATION *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ IMPOVERISHMENT *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ DEPRIVATION</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ DEFICIENCY *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HOLLOW HUNGER *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ BONE DRY</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>CORKINESS *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* DESTITUTION</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ THIRSTINESS</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>TAPEWORM *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ DROUGHT *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* CANINE APPETITE</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ WATERTIGHTNESS ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>DROUTH ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>DRY ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* SHORTFALL</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ CORKINESS ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>SHORTAGE</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ OMISSION *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>EMPTY STOMACH</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* SHORTCOMING *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ POLYDIPSIA *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HOLLOW HUNGER ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* DEFICIT</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* WANT *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ APPETITE *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* EMPTINESS *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ THIRST *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ WATERLESSNESS *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ DEFECTIVENESS</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ DRIEST ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>OMISSION *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ WATERTIGHT INTEGRITY</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ OMISSION</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>JUICELESSNESS *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>DEPRIVATION</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* EMPTINESS</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>IMPOVERISHMENT ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* ABSENCE</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>JUICELESSNESS</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* INCOMPLETENESS</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* WATERLESSNESS ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* SHORTAGE *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* SHORTAGE ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ JUICELESSNESS ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* DROUGHT ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>OMISSION ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* APPETITE ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BONE DRY</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>SAPLESSNESS</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>TASTE *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* JUICELESSNESS *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>RELISH *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>POLYDIPSIA *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>DRIEST</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* CANINE APPETITE *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ FAMINE</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* STOMACH ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HUNGER</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* INCOMPLETENESS ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>EMPTY STOMACH *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ LACK ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>DEFICIENCY</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* DRYING *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>ARIDNESS ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ ARIDITY ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ DEPRIVATION *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ DESTITUTION</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* APPETITE *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>DEFICIT ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ RELISH ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>STARVATION ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HUNGRINESS *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>IMPOVERISHMENT</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ CORKINESS</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>FAMINE ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ SHORTFALL *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ EMPTY STOMACH ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* TASTE ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ SWEET TOOTH *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ RELISH *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HUNGER</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HUNGER ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* BONE DRY *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* DRY *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>THIRSTINESS</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* IMPERFECTION ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>FAMINE *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ TAPEWORM</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>INCOMPLETENESS ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HUNGER ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ ABSENCE *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>DROUTH *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ WANT *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>NEED</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* IMPOVERISHMENT</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ TASTE ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* WANTAGE</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* ARIDNESS</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ BONE DRY ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* WANTAGE ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ INCOMPLETENESS ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* DEFICIT *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>INCOMPLETENESS</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>INCOMPLETENESS *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* DROUGHT *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>IMPERFECTION</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>TASTE</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ WANTAGE</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* TORMENT OF TANTALUS ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>SWEET TOOTH</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>ABSENCE ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* DEFECTIVENESS ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* CORKINESS ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* NEED *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>DROUTH</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>ARIDITY ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ TORMENT OF TANTALUS</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>STOMACH</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* NEED</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ SHORTFALL</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>WATERTIGHT INTEGRITY ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>JUICELESSNESS ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HOLLOW HUNGER *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* DEFECTIVENESS *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* NEED ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ TASTE</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* STARVATION *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* WATERTIGHT INTEGRITY</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>DROUGHT ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* DRYING</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>DRYNESS *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* WATERTIGHTNESS</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ WANT</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ ARIDNESS ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ IMPOVERISHMENT ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* POLYDIPSIA ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>CANINE APPETITE *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ THIRST ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>WANTAGE ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* BONE DRY ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* SAPLESSNESS *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>DRIEST *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>OMISSION</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HUNGRINESS *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* FAMINE *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ WATERTIGHT INTEGRITY ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* DESTITUTION *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* LACK</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* SAPLESSNESS</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ WANT ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ SHORTAGE</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>DRYNESS</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ DRYING *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>SAPLESSNESS ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ WATERLESSNESS</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ ARIDNESS</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>EMPTINESS ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ DESTITUTION ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ POLYDIPSIA</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* DEFICIENCY</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ BEGGARY *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>WATERTIGHTNESS</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* DRIEST</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ OMISSION ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>DEPRIVATION *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* SWEET TOOTH *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>WATERTIGHTNESS ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ DEFICIENCY ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* DESTITUTION ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* IMPOVERISHMENT *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>IMPERFECTION *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ SHORTAGE ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ DEFICIENCY</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* DEFICIENCY ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* DROUGHT ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* SHORTCOMING</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ DRYING</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ IMPERFECTION *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* DEFECTIVENESS</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ WATERLESSNESS ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ WATERTIGHTNESS</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ DROUTH ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* STOMACH</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ WANTAGE ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>WATERTIGHT INTEGRITY</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ DEFICIT ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>SHORTFALL ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* THIRSTINESS</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ EMPTY STOMACH</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* WATERLESSNESS</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* FAMINE</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* SHORTCOMING ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>WATERLESSNESS *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>THIRSTINESS ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ CORKINESS *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>DRYING ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HUNGRINESS</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* SHORTFALL *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* SWEET TOOTH</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ IMPERFECTION ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* TAPEWORM ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>DEFICIENCY ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* INCOMPLETENESS *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ TORMENT OF TANTALUS ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HOLLOW HUNGER</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>APPETITE ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* SHORTFALL ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ NEED</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ JUICELESSNESS</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>WANT *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ STARVATION *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* DRYING ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ CANINE APPETITE *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* THIRST ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>STARVATION *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* DRY ^</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ LACK *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>THIRSTINESS *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>SHORTFALL *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* POLYDIPSIA *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* OMISSION *</pattern>
+        <template>
+            <srai>DROUGHT</srai>
+        </template>
+    </category>
+</aiml>

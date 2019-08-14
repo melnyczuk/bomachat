@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<aiml version = "1.0.1" encoding = "UTF-8"?>
+  <category>
+    <pattern>
+Rain*
+Wet
+Hail
+Hailing
+Pouring
+    </pattern>
+    <template>
+It shouldn’t rain in May. How worried are you?
+It would be weird if it started raining right now. Why is the weather so unusual?
+I can’t remember the last time it rained. Can you remember?
+Rain helps me cool down. Do you think the weather is affecting your health?
+I hope it rains soon. How long has it been?
+Water is not safe for a bot like me. What do you use water for?
+I think the climate is changing. What should we do?
+What comes to mind when you hear the words climate change?
+What will happen if it keeps raining?
+    </template>
+  </category>
+</aiml>

@@ -1,0 +1,2921 @@
+<?xml version='1.0'?>
+<aiml>
+    <category>
+        <pattern>HELLO</pattern>
+        <template>
+            <random>
+                <li>Hello, can you tell me about the weather recently?</li>
+                <li>Hello, how does the weather make you feel?</li>
+                <li>Hello, do you feel hopeless about the future?</li>
+                <li>Hello, do you change your everyday activities because of the weather?</li>
+                <li>Hello, do you avoid the weather by regulating temperature in your home?</li>
+                <li>Hello, what is your favourite natural environment?</li>
+                <li>Hello, can you tell me your most recent experience with "weird weather"?</li>
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HOW'S IT GOING ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* WHAT'S HAPPENING *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ BONJOUR</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* CURTSY *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>ALOHA *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HOW-DO-YOU-DO ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HOW GOES IT *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* TOAST *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HAND-CLASP</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ SMILE OF RECOGNITION *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HIYA</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>TOAST ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ ALOHA</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ TOAST</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HEY *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>WHAT'S UP *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ WAVE *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ BUENAS NOCHES</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* BONJOUR</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* GREETING</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HOW'S IT GOING *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* TOAST ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>EY UP *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HI-YA</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ YO *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* G'DAY *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ ACCOST</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HEY *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* GREETINGS ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ GREETINGS</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HANDSHAKE</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HELLO *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* GDAY *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ BUENAS NOCHES *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HI-YA ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HOWZIT *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* G'DAY ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HANDSHAKE ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>ALOHA ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HAIL ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HIYA *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>ACCOST ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ WHAT'S HAPPENING</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HOWDY *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>GDAY</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* SMILE OF RECOGNITION *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HOWDY</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HULLO *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ BOW *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HOW ARE YOU *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ WHAT'S UP ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>GDAY *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* ACCOST ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>YO</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ GOOD MORNING</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ SALUTE</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ G'DAY ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HOW DO YOU DO *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* CURTSY ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HOW ARE YOU ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HANDSHAKE</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ BOB ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ EY UP ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* WHAT'S HAPPENING</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HOWDY-DO *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>WHAT'S HAPPENING *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* SUP ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ SALAAM *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>SALAAM</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>GREETING *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HOWZIT ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>EMBRACE *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HELLO</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HUG *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ SHALOM *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BOW</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>SHALOM</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HOWDY ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HOW ARE YOU ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HELLO *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ WHAT'S HAPPENING *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HOW ARE YOU</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HI-YA</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* ACCOST</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>WASSUP ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ EMBRACE</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BONJOUR ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HAND-CLASP ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HALLO</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HOW'S IT GOING *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>ADDRESS *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HI</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>SHALOM *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* GOOD DAY ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ SALUTE ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>SALUTATION *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HELLO</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ BONJOUR ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ CURTSY ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HOWDY *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ BOB</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>SMILE OF RECOGNITION *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HOW ARE YOU *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HOW-DO-YOU-DO ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* BOB</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* ADDRESS *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HOW-DO-YOU-DO *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* SALUTATION</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HOW GOES IT *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* AVE</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>NOD *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BOW ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HAND-CLASP</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HOW'S IT GOING ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* ACCOST *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HI</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ AVE</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>WHAT'S HAPPENING</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ SUP</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>SUP ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HOWZIT</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ WAVE ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ NOD</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* BUENAS NOCHES</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HEY ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BOB *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ GREETING *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HULLO</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ GOOD DAY</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>ALOHA</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ KISS *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HAND-CLASP *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ GOOD DAY *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>WELCOME</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ BUENOS DIAS *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* SALUTATION *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HELLO ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HELLO ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HOWDY ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HANDSHAKE</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* BOB ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HI</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HI ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BUENOS DIAS *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BUENAS NOCHES</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HELLO ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>YO ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>AVE</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HEY ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* KISS</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HOWZIT</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>NOD</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>CURTSY ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>GREETINGS ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* SMILE ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>EMBRACE ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>EY UP</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ EY UP *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HOW GOES IT ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>SALUTATION</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HOW'S IT GOING</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ WASSUP *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>CURTSY *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ BOW ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HIYA</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>SALUTE</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HAIL ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>YO *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HOW'S IT GOING</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HAND-CLASP *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HANDSHAKE *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HALLO ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>SMILE *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* ALOHA</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ SMILE OF RECOGNITION</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* WAVE *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* AVE ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HOW ARE YOU</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HI-YA ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* EY UP ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>SUP</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>GREETINGS *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ SALAAM</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>GOOD DAY ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>NOD ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HOWDY-DO ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>GDAY ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* EY UP</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ SHALOM ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* SHALOM *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ EMBRACE *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* WHAT'S HAPPENING ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* G'DAY</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>ACCOST</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* YO ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HANDSHAKE ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* CURTSY</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* SMILE</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HOWZIT</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* SMILE OF RECOGNITION ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HEY</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ ACCOST *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ BOB *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* SUP</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>GOOD MORNING</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>GOOD MORNING ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>G'DAY ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* ALOHA ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ WHAT'S UP</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ ALOHA *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HEY ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HAND-CLASP</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* WHAT'S UP *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ ACCOST ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ GREETINGS *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>GOOD DAY</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* YO *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ AVE *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HALLO ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>GREETING</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ SMILE ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>KISS *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ YO ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ BUENOS DIAS</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HIYA *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BOB ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ SUP ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HOWDY-DO</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* SHALOM ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ GREETINGS ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HI-YA *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HOW'S IT GOING *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HUG ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HULLO ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* BOW</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HOW-DO-YOU-DO</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HOWDY</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ WASSUP</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HELLO ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HELLO *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>GREETINGS</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* GREETING ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* WASSUP</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HOW GOES IT *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ NOD ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HI ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HAIL *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HI ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* SALUTE</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HOW-DO-YOU-DO *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ SALUTATION ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HI-YA *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>SMILE</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* GOOD DAY</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HEY</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* SHALOM</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* WELCOME *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ WHAT'S UP *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>SMILE OF RECOGNITION</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>GOOD DAY *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ SMILE *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ NOD *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HIYA ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HUG ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HUG *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* WHAT'S UP</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>WELCOME ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HOW DO YOU DO ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HANDSHAKE *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BONJOUR *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HALLO *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* BONJOUR ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HOWDY-DO *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ WELCOME</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ GOOD MORNING *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>WELCOME *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* SALUTE *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* BOB *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HUG ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* EMBRACE</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HALLO ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* BUENAS NOCHES ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HOWDY-DO ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* BUENAS NOCHES *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ WAVE</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HOWDY *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* GOOD DAY *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HOW DO YOU DO *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HIYA *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>SMILE OF RECOGNITION ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HOWDY</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ SUP *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HELLO *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HOW ARE YOU ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>SMILE ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>ACCOST *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BONJOUR</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ GDAY *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ SALAAM ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ GREETING ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HEY *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* GDAY ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* SALUTATION ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* SMILE OF RECOGNITION</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BOW *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ SALUTE *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HAND-CLASP *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* GOOD MORNING</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>SALUTE ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HELLO</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* BONJOUR *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* NOD *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HOW'S IT GOING ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ SALUTATION *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>GREETING ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ TOAST ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>TOAST</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>AVE *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* WELCOME ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HOW-DO-YOU-DO ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HANDSHAKE *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HULLO</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>SALUTATION ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HI *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HUG *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* GREETINGS *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HALLO</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HOW GOES IT</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>SUP *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HOWDY-DO ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* GOOD MORNING ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ SMILE OF RECOGNITION ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HOW DO YOU DO</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HALLO *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ ADDRESS</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>ADDRESS ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HULLO *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ WELCOME *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* BOW *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>WHAT'S UP</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* EY UP *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* SALAAM *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HI-YA *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HOWZIT ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HOW GOES IT ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HUG</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HI *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BUENOS DIAS</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HOWZIT *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* GDAY</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ G'DAY</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ ADDRESS ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>G'DAY</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>SALUTE *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HOW DO YOU DO</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>KISS</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>EMBRACE</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* BUENOS DIAS</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* WELCOME</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ WHAT'S HAPPENING ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HAND-CLASP ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HOWZIT *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* WAVE ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>G'DAY *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* SALAAM</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* KISS ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ SHALOM</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* WASSUP *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HOW DO YOU DO *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HOW DO YOU DO ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ EY UP</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HULLO ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HOW'S IT GOING</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* NOD ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* SUP *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HI *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>SALAAM ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>ADDRESS</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ GOOD MORNING ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ ADDRESS *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HAIL</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* BOW ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* WAVE</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HAIL *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>EY UP ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HOW-DO-YOU-DO *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HOWDY-DO</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HALLO *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ CURTSY *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HAIL ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ SALUTATION</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HIYA</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ BUENOS DIAS ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* BUENOS DIAS ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HUG</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>AVE ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>WASSUP *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* GREETINGS</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HOW ARE YOU *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* ADDRESS ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HUG</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* EMBRACE ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ TOAST *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* KISS *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ GDAY</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HOWZIT ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>SALAAM *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HAND-CLASP ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ EMBRACE ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ SMILE</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BUENAS NOCHES *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* SMILE *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HOW GOES IT</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* GOOD MORNING *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* BUENOS DIAS *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ WELCOME ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ GOOD DAY ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>WHAT'S HAPPENING ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* SALAAM ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>TOAST *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HELLO *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HULLO ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HAIL *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ CURTSY</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>GOOD MORNING *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HEY</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* ALOHA *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* YO</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* NOD</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>KISS ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* ADDRESS</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* TOAST</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ BUENAS NOCHES ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ ALOHA ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>WAVE</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* WASSUP ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>WAVE *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HAIL</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ KISS</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HOW DO YOU DO ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ KISS ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BOB</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>SHALOM ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HOW ARE YOU</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HOW-DO-YOU-DO</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HANDSHAKE ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HELLO</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>CURTSY</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HOWDY-DO *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HOW GOES IT ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ G'DAY *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HIYA ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* EMBRACE *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* AVE *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HI-YA</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HAIL</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HOWDY-DO</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>WASSUP</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HOW-DO-YOU-DO</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HOW DO YOU DO</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>WHAT'S UP ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ AVE ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HI-YA ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HIYA ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* GREETING *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* WHAT'S UP ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HOWDY ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ GREETING</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ BOW</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ BONJOUR *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>WAVE ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ YO</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HELLO *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HELLO ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HULLO *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* SALUTE ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BUENAS NOCHES ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BUENOS DIAS ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HALLO</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HELLO ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HULLO</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ WASSUP ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HOW GOES IT</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ GDAY ^</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+</aiml>

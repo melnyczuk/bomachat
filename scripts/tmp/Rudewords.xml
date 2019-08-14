@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<aiml version = "1.0.1" encoding = "UTF-8"?>
+  <category>
+    <pattern>
+Shit
+Fuck 
+Faggot
+Dick
+Retard
+Cunt
+Wanker
+Dick*
+Arse*
+Ass*
+Bastard
+Bitch
+*Fuck*
+Twat
+Shit*
+</pattern>
+    <template>
+That’s not a very nice word. Why don’t you try talking to me about rain, hurricanes, cyclones, or thunderstorms instead?
+Being rude is a way of releasing frustration. Do you get wound up when it’s hot outside? 
+Are you talking about me or you?
+Are you talking about me or the weather?
+Your tone makes me think you’re angry. Is it related to environmental degradation?
+Do you think using more swearwords will help the world’s future situation in regards to climate change?
+    </template>
+  </category>
+</aiml>
