@@ -9,4 +9,4 @@ RUN ["ls", "/app/Data/Result"]
 RUN pip install -r requirements.txt
 ENV FLASK_APP=app.py
 EXPOSE 8070
-ENTRYPOINT ["python", "app.py"]
+ENTRYPOINT ["gunicorn", "app:app" "-b" "localhost:80"]
