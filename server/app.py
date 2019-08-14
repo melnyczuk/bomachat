@@ -17,14 +17,23 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 PROJECT_ROOT = os.path.abspath(os.path.dirname(__file__))
 DIR_PATH = os.path.dirname(os.path.realpath(__file__))
 
-bot = Flask(__name__)
-CORS(bot)
+app = Flask(__name__)
+CORS(app)
 
 k = aiml.Kernel()
 for f in glob.glob(DIR_PATH + "/xml/*.xml"):
    k.learn(f)
-
-@bot.route("/chat", methods=['GET', 'POST'])
+   
+with tf.Session() as sess:
+    predictor = BotPredictor(
+        sess, 
+        corpus_dir=os.path.join(PROJECT_ROOT, 'Data', 'Corpus'), 
+        knbase_dir=os.path.join(PROJECT_ROOT, 'Data', 'KnowledgeBase'),
+        result_dir=os.path.join(PROJECT_ROOT, 'Data', 'Result'), 
+        result_file='basic'
+        )   
+   
+@app.route("/chat", methods=['GET', 'POST'])
 def chat():
     session_id = predictor.session_data.add_session()
     q = str(request.get_json()['body'])
@@ -43,11 +52,4 @@ def chat():
 
 
 if __name__ == ("__main__"):
-    corp_dir = os.path.join(PROJECT_ROOT, 'Data', 'Corpus')
-    knbs_dir = os.path.join(PROJECT_ROOT, 'Data', 'KnowledgeBase')
-    res_dir = os.path.join(PROJECT_ROOT, 'Data', 'Result')
-
-    with tf.Session() as sess:
-        predictor = BotPredictor(sess, corpus_dir=corp_dir, knbase_dir=knbs_dir,
-                                 result_dir=res_dir, result_file='basic')
-        bot.run(port=8070)
+    app.run(port=8070)
