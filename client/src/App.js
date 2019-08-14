@@ -10,7 +10,7 @@ class App extends Component {
       input: "",
       logs: [],
       axios: axios.create({
-        baseURL: "https://bomachat.herokuapp.com:80",
+        baseURL: "https://bomachat.herokuapp.com",
         timeout: 10000,
         headers: {
           "Access-Control-Allow-Origin": "*"
