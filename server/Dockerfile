@@ -9,4 +9,6 @@ RUN ["ls", "/app/Data/Result"]
 RUN pip install -r requirements.txt
 ENV FLASK_APP=app.py
 EXPOSE 8080
-ENTRYPOINT ["flask", "run", "--host=0.0.0.0", "--port=$PORT"]
+ENTRYPOINT ["python","app.py"]
+CMD ["python"]
+
