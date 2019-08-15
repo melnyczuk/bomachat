@@ -1,4 +1,5 @@
 absl-py==0.7.1
+appdirs==1.4.3
 astor==0.8.0
 bleach==1.5.0
 blinker==1.4
