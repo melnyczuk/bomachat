@@ -19,7 +19,7 @@ Keras-Applications==1.0.8
 Keras-Preprocessing==1.1.0
 Markdown==3.1.1
 MarkupSafe==1.1.1
-nltk==3.2.5
+nltk==3.4.5
 numpy==1.17.0
 protobuf==3.9.1
 python-aiml==0.9.1
