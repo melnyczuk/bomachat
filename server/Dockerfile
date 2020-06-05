@@ -1,5 +1,4 @@
 FROM python:3.6
-RUN mkdir /app
 COPY . /app
 WORKDIR /app
 RUN mkdir /app/Data/Result
@@ -11,3 +10,4 @@ RUN pip install -q -r requirements.txt
 ENV FLASK_APP=app.py
 EXPOSE 8080
 ENTRYPOINT python app.py
+CMD python
