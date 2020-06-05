@@ -56,6 +56,6 @@ def chat():
 
 
 if __name__ == ('__main__'):
-    host = str(os.environ.get('HOST', '0.0.0.0'))
     port = int(os.environ.get('PORT', 8080))
-    app.run(host=host, port=port)
+    print('running app on 0.0.0.0:' + port)
+    app.run(host='0.0.0.0', port=port)
