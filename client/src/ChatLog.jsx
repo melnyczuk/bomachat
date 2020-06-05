@@ -1,10 +1,9 @@
 import React from 'react';
 
-const ChatLog = ({ logs }) => (
+const ChatLog = ({ logs = [] }) => (
   <div id="App-readout">
     {
-      !!logs.length && logs
-        .filter(log => typeof log === 'string')
+      logs.length !== 0 && logs
         .map(log => log.split(':'))
         .map(([originator, message]) => <p key={message} className={originator}>{message}</p>)
     }
