@@ -21,8 +21,8 @@ app = Flask(__name__)
 CORS(app)
 
 k = aiml.Kernel()
-for f in glob.glob(DIR_PATH + "/xml/*.xml"):
-   k.learn(f)
+for f in glob.glob(DIR_PATH + '/xml/*.xml'):
+    k.learn(f)
    
 with tf.Session() as sess:
     predictor = BotPredictor(
@@ -31,28 +31,31 @@ with tf.Session() as sess:
         knbase_dir=os.path.join(PROJECT_ROOT, 'Data', 'KnowledgeBase'),
         result_dir=os.path.join(PROJECT_ROOT, 'Data', 'Result'), 
         result_file='basic'
-        )   
+    )   
+
+@app.route('/ping', methods=['GET'])
+def ping():
+    return 'pong'
    
-@app.route("/chat", methods=['GET', 'POST'])
+@app.route('/chat', methods=['POST'])
 def chat():
     session_id = predictor.session_data.add_session()
-    q = str(request.get_json()['body'])
-    reply = k.respond(q)
-    print(reply)
-    if len(reply):
-        print('rule')
+    question = str(request.get_json()['body'])
+
+    aiml_reply = k.respond(question)
+
+    if len(aiml_reply):
         sleep(1.5)
-        return reply
+        print('question:', question, 'aiml-reply:', aiml_reply, sep=' ')
+        return aiml_reply
+
     else:
-        print('nmt')
-        reply = predictor.predict(session_id, q)
-        print(reply)
-        return reply
+        nmt_reply = predictor.predict(session_id, q)
+        print('question:', question, ' nmt-reply:', nmt_reply, sep=' ')
+        return nmt_reply
 
 
-
-if __name__ == ("__main__"):
-    port = int(os.environ.get("PORT", 8080))
-    print("@@@@@@@@@@@@@@@ PORT:", port)
-    app.run(host='0.0.0.0', port=port)
-
+if __name__ == ('__main__'):
+    host = str(os.environ.get('HOST', '0.0.0.0'))
+    port = int(os.environ.get('PORT', 8080))
+    app.run(host=host, port=port)
