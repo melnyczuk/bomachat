@@ -6,10 +6,8 @@
     "axios": "^0.18.0",
     "cors": "^2.8.4",
     "next": "^9.0.3",
-    "node-gyp": "^3.6.2",
     "react": "^16.9.0",
-    "react-dom": "^16.9.0",
-    "react-scripts": "1.1.4"
+    "react-dom": "^16.9.0"
   },
   "scripts": {
     "build": "next build",
@@ -22,7 +20,6 @@
     "@zeit/next-css": "^1.0.1",
     "@zeit/next-sass": "^1.0.1",
     "mini-css-extract-plugin": "^0.8.0",
-    "node-sass": "^4.12.0",
     "serve": "^11.1.0",
     "webpack": "^4.39.2"
   }
