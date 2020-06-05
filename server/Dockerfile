@@ -1,14 +1,13 @@
 FROM python:3.6
+RUN mkdir /app
 COPY . /app
 WORKDIR /app
 RUN mkdir /app/Data/Result
-RUN wget -P /app/Data/Result/ https://www.dropbox.com/s/thq9zuznozguiyq/basic.data-00000-of-00001
-RUN wget -P /app/Data/Result/ https://www.dropbox.com/s/0bj5r6yn76zqkx6/basic.index
-RUN wget -P /app/Data/Result/ https://www.dropbox.com/s/lb5vhdlkowl4rb5/basic.meta
-RUN ["ls", "/app/Data/Result"]
-RUN pip install -r requirements.txt
+RUN wget -q -P /app/Data/Result/ https://www.dropbox.com/s/ue1qk835auf5tkr/basic.data-00000-of-00001
+RUN wget -q -P /app/Data/Result/ https://www.dropbox.com/s/6klpgw3hcpsa9ff/basic.index
+RUN wget -q -P /app/Data/Result/ https://www.dropbox.com/s/kxcg14l6a5ltgpg/basic.meta
+RUN ls /app/Data/Result
+RUN pip install -q -r requirements.txt
 ENV FLASK_APP=app.py
 EXPOSE 8080
-ENTRYPOINT ["python","app.py"]
-CMD ["python"]
-
+ENTRYPOINT python app.py
