@@ -44,7 +44,7 @@ class ModelCreator(object):
         # Initializer
         initializer = model_helper.get_initializer(
             hparams.init_op, hparams.random_seed, hparams.init_weight)
-        tf.get_variable_scope().set_initializer(initializer)
+        tf.compat.v1.get_variable_scope().set_initializer(initializer)
 
         # Embeddings
         self.embedding = (model_helper.create_embbeding(vocab_size=self.vocab_size,
@@ -52,11 +52,11 @@ class ModelCreator(object):
                                                         scope=scope))
         # This batch_size might vary among each batch instance due to the bucketing and/or reach
         # the end of the training set. Treat it as size_of_the_batch.
-        self.batch_size = tf.size(self.batch_input.source_sequence_length)
+        self.batch_size = tf.size(input=self.batch_input.source_sequence_length)
 
         # Projection
-        with tf.variable_scope(scope or "build_network"):
-            with tf.variable_scope("decoder/output_projection"):
+        with tf.compat.v1.variable_scope(scope or "build_network"):
+            with tf.compat.v1.variable_scope("decoder/output_projection"):
                 self.output_layer = layers_core.Dense(
                     self.vocab_size, use_bias=False, name="output_projection")
 
@@ -66,24 +66,24 @@ class ModelCreator(object):
 
         if training:
             self.train_loss = res[1]
-            self.word_count = tf.reduce_sum(self.batch_input.source_sequence_length) + \
-                              tf.reduce_sum(self.batch_input.target_sequence_length)
+            self.word_count = tf.reduce_sum(input_tensor=self.batch_input.source_sequence_length) + \
+                              tf.reduce_sum(input_tensor=self.batch_input.target_sequence_length)
             # Count the number of predicted words for compute perplexity.
-            self.predict_count = tf.reduce_sum(self.batch_input.target_sequence_length)
+            self.predict_count = tf.reduce_sum(input_tensor=self.batch_input.target_sequence_length)
         else:
             self.infer_logits, _, self.final_context_state, self.sample_id = res
-            self.sample_words = self.reverse_vocab_table.lookup(tf.to_int64(self.sample_id))
+            self.sample_words = self.reverse_vocab_table.lookup(tf.cast(self.sample_id, dtype=tf.int64))
 
         self.global_step = tf.Variable(0, trainable=False)
 
-        params = tf.trainable_variables()
+        params = tf.compat.v1.trainable_variables()
 
         # Gradients update operation for training the model.
         if training:
-            self.learning_rate = tf.placeholder(tf.float32, shape=[], name='learning_rate')
-            opt = tf.train.AdamOptimizer(self.learning_rate)
+            self.learning_rate = tf.compat.v1.placeholder(tf.float32, shape=[], name='learning_rate')
+            opt = tf.compat.v1.train.AdamOptimizer(self.learning_rate)
 
-            gradients = tf.gradients(self.train_loss, params)
+            gradients = tf.gradients(ys=self.train_loss, xs=params)
 
             clipped_gradients, gradient_norm_summary = model_helper.gradient_clip(
                 gradients, max_gradient_norm=hparams.max_gradient_norm)
@@ -92,15 +92,15 @@ class ModelCreator(object):
                 zip(clipped_gradients, params), global_step=self.global_step)
 
             # Summary
-            self.train_summary = tf.summary.merge([
-                tf.summary.scalar("learning_rate", self.learning_rate),
-                tf.summary.scalar("train_loss", self.train_loss),
+            self.train_summary = tf.compat.v1.summary.merge([
+                tf.compat.v1.summary.scalar("learning_rate", self.learning_rate),
+                tf.compat.v1.summary.scalar("train_loss", self.train_loss),
             ] + gradient_norm_summary)
         else:
             self.infer_summary = tf.no_op()
 
         # Saver
-        self.saver = tf.train.Saver(tf.global_variables())
+        self.saver = tf.compat.v1.train.Saver(tf.compat.v1.global_variables())
 
         # Print trainable variables
         if training:
@@ -125,7 +125,7 @@ class ModelCreator(object):
         """Creates a sequence-to-sequence model with dynamic RNN decoder API."""
         dtype = tf.float32
 
-        with tf.variable_scope(scope or "dynamic_seq2seq", dtype=dtype):
+        with tf.compat.v1.variable_scope(scope or "dynamic_seq2seq", dtype=dtype):
             # Encoder
             encoder_outputs, encoder_state = self._build_encoder(hparams)
 
@@ -145,17 +145,17 @@ class ModelCreator(object):
         """Build an encoder."""
         source = self.batch_input.source
         if self.time_major:
-            source = tf.transpose(source)
+            source = tf.transpose(a=source)
 
-        with tf.variable_scope("encoder") as scope:
+        with tf.compat.v1.variable_scope("encoder") as scope:
             dtype = scope.dtype
             # Look up embedding, emp_inp: [max_time, batch_size, num_units]
-            encoder_emb_inp = tf.nn.embedding_lookup(self.embedding, source)
+            encoder_emb_inp = tf.nn.embedding_lookup(params=self.embedding, ids=source)
 
             # Encoder_outpus: [max_time, batch_size, num_units]
             cell = self._build_encoder_cell(hparams)
 
-            encoder_outputs, encoder_state = tf.nn.dynamic_rnn(
+            encoder_outputs, encoder_state = tf.compat.v1.nn.dynamic_rnn(
                 cell,
                 encoder_emb_inp,
                 dtype=dtype,
@@ -181,12 +181,12 @@ class ModelCreator(object):
             maximum_iterations = hparams.tgt_max_len_infer
         else:
             decoding_length_factor = 2.0
-            max_encoder_length = tf.reduce_max(self.batch_input.source_sequence_length)
-            maximum_iterations = tf.to_int32(tf.round(
-                tf.to_float(max_encoder_length) * decoding_length_factor))
+            max_encoder_length = tf.reduce_max(input_tensor=self.batch_input.source_sequence_length)
+            maximum_iterations = tf.cast(tf.round(
+                tf.cast(max_encoder_length, dtype=tf.float32) * decoding_length_factor), dtype=tf.int32)
 
         # Decoder.
-        with tf.variable_scope("decoder") as decoder_scope:
+        with tf.compat.v1.variable_scope("decoder") as decoder_scope:
             cell, decoder_initial_state = self._build_decoder_cell(
                 hparams, encoder_outputs, encoder_state,
                 self.batch_input.source_sequence_length)
@@ -196,8 +196,8 @@ class ModelCreator(object):
                 # decoder_emp_inp: [max_time, batch_size, num_units]
                 target_input = self.batch_input.target_input
                 if self.time_major:
-                    target_input = tf.transpose(target_input)
-                decoder_emb_inp = tf.nn.embedding_lookup(self.embedding, target_input)
+                    target_input = tf.transpose(a=target_input)
+                decoder_emb_inp = tf.nn.embedding_lookup(params=self.embedding, ids=target_input)
 
                 # Helper
                 helper = tf.contrib.seq2seq.TrainingHelper(
@@ -276,7 +276,7 @@ class ModelCreator(object):
         dtype = tf.float32
 
         if self.time_major:
-            memory = tf.transpose(encoder_outputs, [1, 0, 2])
+            memory = tf.transpose(a=encoder_outputs, perm=[1, 0, 2])
         else:
             memory = encoder_outputs
 
@@ -318,21 +318,21 @@ class ModelCreator(object):
         """Compute optimization loss."""
         target_output = self.batch_input.target_output
         if self.time_major:
-            target_output = tf.transpose(target_output)
+            target_output = tf.transpose(a=target_output)
         max_time = self.get_max_time(target_output)
         crossent = tf.nn.sparse_softmax_cross_entropy_with_logits(
             labels=target_output, logits=logits)
         target_weights = tf.sequence_mask(
             self.batch_input.target_sequence_length, max_time, dtype=logits.dtype)
         if self.time_major:
-            target_weights = tf.transpose(target_weights)
+            target_weights = tf.transpose(a=target_weights)
 
-        loss = tf.reduce_sum(crossent * target_weights) / tf.to_float(self.batch_size)
+        loss = tf.reduce_sum(input_tensor=crossent * target_weights) / tf.cast(self.batch_size, dtype=tf.float32)
         return loss
 
     def get_max_time(self, tensor):
         time_axis = 0 if self.time_major else 1
-        return tensor.shape[time_axis].value or tf.shape(tensor)[time_axis]
+        return tensor.shape[time_axis].value or tf.shape(input=tensor)[time_axis]
 
     def infer(self, sess):
         assert not self.training

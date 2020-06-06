@@ -88,7 +88,7 @@ class TokenizedData:
 
         # Add in sequence lengths.
         train_set = train_set.map(lambda src, tgt_in, tgt_out:
-                                  (src, tgt_in, tgt_out, tf.size(src), tf.size(tgt_in)),
+                                  (src, tgt_in, tgt_out, tf.size(input=src), tf.size(input=tgt_in)),
                                   num_parallel_calls=num_threads).prefetch(buffer_size)
 
         def batching_func(x):
@@ -119,20 +119,20 @@ class TokenizedData:
                 # length over ((num_bucket-1) * bucket_width) words all go into the last bucket.
                 # Bucket sentence pairs by the length of their source sentence and target sentence.
                 bucket_id = tf.maximum(src_len // bucket_width, tgt_len // bucket_width)
-                return tf.to_int64(tf.minimum(self.hparams.num_buckets, bucket_id))
+                return tf.cast(tf.minimum(self.hparams.num_buckets, bucket_id), dtype=tf.int64)
 
             # No key to filter the dataset. Therefore the key is unused.
             def reduce_func(unused_key, windowed_data):
                 return batching_func(windowed_data)
 
             batched_dataset = train_set.apply(
-                tf.contrib.data.group_by_window(key_func=key_func,
+                tf.data.experimental.group_by_window(key_func=key_func,
                                                 reduce_func=reduce_func,
                                                 window_size=self.hparams.batch_size))
         else:
             batched_dataset = batching_func(train_set)
 
-        batched_iter = batched_dataset.make_initializable_iterator()
+        batched_iter = tf.compat.v1.data.make_initializable_iterator(batched_dataset)
         (src_ids, tgt_input_ids, tgt_output_ids, src_seq_len, tgt_seq_len) = (batched_iter.get_next())
 
         return BatchedInput(initializer=batched_iter.initializer,
@@ -143,33 +143,31 @@ class TokenizedData:
                             target_sequence_length=tgt_seq_len)
 
     def get_inference_batch(self, src_dataset):
-        text_dataset = src_dataset.map(lambda src: tf.string_split([src]).values)
+        text_dataset = src_dataset.map(lambda src: tf.compat.v1.string_split([src]).values)
 
         if self.hparams.src_max_len_infer:
             text_dataset = text_dataset.map(lambda src: src[:self.hparams.src_max_len_infer])
         # Convert the word strings to ids
-        id_dataset = text_dataset.map(lambda src: tf.cast(self.vocab_table.lookup(src),
-                                                          tf.int32))
+        id_dataset = text_dataset.map(lambda src: tf.cast(self.vocab_table.lookup(src), tf.int32))
         if self.hparams.source_reverse:
             id_dataset = id_dataset.map(lambda src: tf.reverse(src, axis=[0]))
         # Add in the word counts.
-        id_dataset = id_dataset.map(lambda src: (src, tf.size(src)))
+        id_dataset = id_dataset.map(lambda src: (src, tf.size(input=src)))
 
         def batching_func(x):
             return x.padded_batch(
-                self.hparams.batch_size_infer,
+                self.hparams.batch_size_infer
                 # The entry is the source line rows; this has unknown-length vectors.
                 # The last entry is the source row size; this is a scalar.
-                padded_shapes=(tf.TensorShape([None]),  # src
-                               tf.TensorShape([])),     # src_len
+                # padded_shapes=(tf.TensorShape([None]), tf.TensorShape([])),
                 # Pad the source sequences with eos tokens. Though notice we don't generally need to
                 # do this since later on we will be masking out calculations past the true sequence.
-                padding_values=(self.hparams.eos_id,  # src
-                                0))                   # src_len -- unused
+                # padding_values=(self.hparams.eos_id', None), 0)
+            )
 
         id_dataset = batching_func(id_dataset)
 
-        infer_iter = id_dataset.make_initializable_iterator()
+        infer_iter = tf.compat.v1.data.make_initializable_iterator(id_dataset)
         (src_ids, src_seq_len) = infer_iter.get_next()
 
         return BatchedInput(initializer=infer_iter.initializer,
@@ -198,15 +196,15 @@ class TokenizedData:
             dataset = tf.data.TextLineDataset(file_list)
 
             src_dataset = dataset.filter(lambda line:
-                                         tf.logical_and(tf.size(line) > 0,
-                                                        tf.equal(tf.substr(line, 0, 2), tf.constant('Q:'))))
+                                         tf.logical_and(tf.size(input=line) > 0,
+                                                        tf.equal(tf.strings.substr(input=line, pos=0, len=2), tf.constant('Q:'))))
             src_dataset = src_dataset.map(lambda line:
-                                          tf.substr(line, 2, MAX_LEN)).prefetch(4096)
+                                          tf.strings.substr(input=line, pos=2, len=MAX_LEN)).prefetch(4096)
             tgt_dataset = dataset.filter(lambda line:
-                                         tf.logical_and(tf.size(line) > 0,
-                                                        tf.equal(tf.substr(line, 0, 2), tf.constant('A:'))))
+                                         tf.logical_and(tf.size(input=line) > 0,
+                                                        tf.equal(tf.strings.substr(input=line, pos=0, len=2), tf.constant('A:'))))
             tgt_dataset = tgt_dataset.map(lambda line:
-                                          tf.substr(line, 2, MAX_LEN)).prefetch(4096)
+                                          tf.strings.substr(input=line, pos=2, len=MAX_LEN)).prefetch(4096)
 
             src_tgt_dataset = tf.data.Dataset.zip((src_dataset, tgt_dataset))
             if fd == 1:
@@ -223,8 +221,8 @@ class TokenizedData:
         # The following 3 steps act as a python String lower() function
         # Split to characters
         self.text_set = self.text_set.map(lambda src, tgt:
-                                          (tf.string_split([src], delimiter='').values,
-                                           tf.string_split([tgt], delimiter='').values)
+                                          (tf.compat.v1.string_split([src], delimiter='').values,
+                                           tf.compat.v1.string_split([tgt], delimiter='').values)
                                           ).prefetch(buffer_size)
         # Convert all upper case characters to lower case characters
         self.text_set = self.text_set.map(lambda src, tgt:
@@ -232,12 +230,12 @@ class TokenizedData:
                                           ).prefetch(buffer_size)
         # Join characters back to strings
         self.text_set = self.text_set.map(lambda src, tgt:
-                                          (tf.reduce_join([src]), tf.reduce_join([tgt]))
+                                          (tf.strings.reduce_join(inputs=[src]), tf.strings.reduce_join(inputs=[tgt]))
                                           ).prefetch(buffer_size)
 
         # Split to word tokens
         self.text_set = self.text_set.map(lambda src, tgt:
-                                          (tf.string_split([src]).values, tf.string_split([tgt]).values)
+                                          (tf.compat.v1.string_split([src]).values, tf.compat.v1.string_split([tgt]).values)
                                           ).prefetch(buffer_size)
         # Remove sentences longer than the model allows
         self.text_set = self.text_set.map(lambda src, tgt:
@@ -260,9 +258,9 @@ class TokenizedData:
 
 def check_vocab(vocab_file):
     """Check to make sure vocab_file exists"""
-    if tf.gfile.Exists(vocab_file):
+    if tf.io.gfile.exists(vocab_file):
         vocab_list = []
-        with codecs.getreader("utf-8")(tf.gfile.GFile(vocab_file, "rb")) as f:
+        with codecs.getreader("utf-8")(tf.io.gfile.GFile(vocab_file, "rb")) as f:
             for word in f:
                 vocab_list.append(word.strip())
     else:

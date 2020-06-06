@@ -16,6 +16,7 @@ import codecs
 import json
 import os
 import tensorflow as tf
+from tensor2tensor.utils.hparam import HParams as HP
 
 
 class HParams:
@@ -30,12 +31,12 @@ class HParams:
     def load_hparams(model_dir):
         """Load hparams from an existing directory."""
         hparams_file = os.path.join(model_dir, "hparams.json")
-        if tf.gfile.Exists(hparams_file):
+        if tf.io.gfile.exists(hparams_file):
             print("# Loading hparams from {} ...".format(hparams_file))
-            with codecs.getreader("utf-8")(tf.gfile.GFile(hparams_file, "rb")) as f:
+            with codecs.getreader("utf-8")(tf.io.gfile.GFile(hparams_file, "rb")) as f:
                 try:
                     hparams_values = json.load(f)
-                    hparams = tf.contrib.training.HParams(**hparams_values)
+                    hparams = HP(**hparams_values)
                 except ValueError:
                     print("Error loading hparams file.")
                     return None

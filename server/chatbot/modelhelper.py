@@ -19,7 +19,7 @@ def get_initializer(init_op, seed=None, init_weight=None):
     """Create an initializer. init_weight is only for uniform."""
     if init_op == "uniform":
         assert init_weight
-        return tf.random_uniform_initializer(-init_weight, init_weight, seed=seed)
+        return tf.compat.v1.random_uniform_initializer(-init_weight, init_weight, seed=seed)
     elif init_op == "glorot_normal":
         return tf.contrib.keras.initializers.glorot_normal(seed=seed)
     elif init_op == "glorot_uniform":
@@ -38,15 +38,15 @@ def get_initializer(init_op, seed=None, init_weight=None):
 
 def create_embbeding(vocab_size, embed_size, dtype=tf.float32, scope=None):
     """Create embedding matrix for both encoder and decoder."""
-    with tf.variable_scope(scope or "embeddings", dtype=dtype):
-        embedding = tf.get_variable("embedding", [vocab_size, embed_size], dtype)
+    with tf.compat.v1.variable_scope(scope or "embeddings", dtype=dtype):
+        embedding = tf.compat.v1.get_variable("embedding", [vocab_size, embed_size], dtype)
 
     return embedding
 
 
 def _single_cell(num_units, keep_prob, device_str=None):
     """Create an instance of a single RNN cell."""
-    single_cell = tf.contrib.rnn.GRUCell(num_units)
+    single_cell = tf.compat.v1.nn.rnn_cell.GRUCell(num_units)
 
     if keep_prob < 1.0:
         single_cell = tf.contrib.rnn.DropoutWrapper(cell=single_cell, input_keep_prob=keep_prob)
@@ -68,14 +68,14 @@ def create_rnn_cell(num_units, num_layers, keep_prob):
     if len(cell_list) == 1:  # Single layer.
         return cell_list[0]
     else:  # Multi layers
-        return tf.contrib.rnn.MultiRNNCell(cell_list)
+        return tf.compat.v1.nn.rnn_cell.MultiRNNCell(cell_list)
 
 
 def gradient_clip(gradients, max_gradient_norm):
     """Clipping gradients of a model."""
     clipped_gradients, gradient_norm = tf.clip_by_global_norm(gradients, max_gradient_norm)
-    gradient_norm_summary = [tf.summary.scalar("grad_norm", gradient_norm)]
+    gradient_norm_summary = [tf.compat.v1.summary.scalar("grad_norm", gradient_norm)]
     gradient_norm_summary.append(
-        tf.summary.scalar("clipped_gradient", tf.global_norm(clipped_gradients)))
+        tf.compat.v1.summary.scalar("clipped_gradient", tf.linalg.global_norm(clipped_gradients)))
 
     return clipped_gradients, gradient_norm_summary

@@ -49,7 +49,7 @@ class BotPredictor(object):
         self.session_data = SessionData()
 
         self.hparams = tokenized_data.hparams
-        self.src_placeholder = tf.placeholder(shape=[None], dtype=tf.string)
+        self.src_placeholder = tf.compat.v1.placeholder(shape=[None], dtype=tf.string)
         src_dataset = tf.data.Dataset.from_tensor_slices(self.src_placeholder)
         self.infer_batch = tokenized_data.get_inference_batch(src_dataset)
 
@@ -61,7 +61,7 @@ class BotPredictor(object):
         print("# Restoring model weights ...")
         self.model.saver.restore(session, os.path.join(result_dir, result_file))
 
-        self.session.run(tf.tables_initializer())
+        self.session.run(tf.compat.v1.tables_initializer())
 
     def predict(self, session_id, question, html_format=False):
         chat_session = self.session_data.get_session(session_id)

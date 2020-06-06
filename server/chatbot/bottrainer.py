@@ -38,18 +38,18 @@ class BotTrainer(object):
         """Train a seq2seq model."""
         # Summary writer
         summary_name = "train_log"
-        summary_writer = tf.summary.FileWriter(os.path.join(result_dir, summary_name), self.graph)
+        summary_writer = tf.compat.v1.summary.FileWriter(os.path.join(result_dir, summary_name), self.graph)
 
         log_device_placement = self.hparams.log_device_placement
         num_epochs = self.hparams.num_epochs
 
-        config_proto = tf.ConfigProto(log_device_placement=log_device_placement,
+        config_proto = tf.compat.v1.ConfigProto(log_device_placement=log_device_placement,
                                       allow_soft_placement=True)
         config_proto.gpu_options.allow_growth = True
 
-        with tf.Session(target=target, config=config_proto, graph=self.graph) as sess:
-            sess.run(tf.global_variables_initializer())
-            sess.run(tf.tables_initializer())
+        with tf.compat.v1.Session(target=target, config=config_proto, graph=self.graph) as sess:
+            sess.run(tf.compat.v1.global_variables_initializer())
+            sess.run(tf.compat.v1.tables_initializer())
             global_step = self.model.global_step.eval(session=sess)
 
             # Initialize all of the iterators
@@ -92,7 +92,7 @@ class BotTrainer(object):
                                   learning_rate, mean_loss, train_perp, round(epoch_dur, 2)))
                     epoch_start_time = time.time()  # The start time of the next epoch
 
-                    summary = tf.Summary(value=[tf.Summary.Value(tag="train_perp", simple_value=train_perp)])
+                    summary = tf.compat.v1.Summary(value=[tf.compat.v1.Summary.Value(tag="train_perp", simple_value=train_perp)])
                     summary_writer.add_summary(summary, global_step)
 
                     # Save checkpoint
