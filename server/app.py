@@ -7,8 +7,9 @@ from time import sleep
 
 import aiml
 import tensorflow as tf
-from flask import Flask, render_template, request
-from flask_cors import CORS
+
+from flask import Flask, request, abort
+from flask_cors import cross_origin
 
 from chatbot.botpredictor import BotPredictor
 
@@ -18,29 +19,35 @@ PROJECT_ROOT = os.path.abspath(os.path.dirname(__file__))
 DIR_PATH = os.path.dirname(os.path.realpath(__file__))
 
 app = Flask(__name__)
-CORS(app)
 
 k = aiml.Kernel()
-for f in glob.glob(DIR_PATH + '/xml/*.xml'):
+for f in glob.glob(DIR_PATH + '/data/xml/*.xml'):
     k.learn(f)
    
-with tf.Session() as sess:
+with tf.compat.v1.Session() as sess:
     predictor = BotPredictor(
         sess, 
-        corpus_dir=os.path.join(PROJECT_ROOT, 'Data', 'Corpus'), 
-        knbase_dir=os.path.join(PROJECT_ROOT, 'Data', 'KnowledgeBase'),
-        result_dir=os.path.join(PROJECT_ROOT, 'Data', 'Result'), 
+        corpus_dir=os.path.join(PROJECT_ROOT, 'data', 'corpus'), 
+        knbase_dir=os.path.join(PROJECT_ROOT, 'data', 'knowledge_base'),
+        result_dir=os.path.join(PROJECT_ROOT, 'data', 'result'), 
         result_file='basic'
     )   
 
 @app.route('/ping', methods=['GET'])
+@cross_origin(origins='*')
 def ping():
     return 'pong'
    
 @app.route('/chat', methods=['POST'])
+@cross_origin(origins=['https://gail-the-bomachat.netlify.app', 'localhost'])
 def chat():
     session_id = predictor.session_data.add_session()
-    question = str(request.get_json()['body'])
+    resp = request.get_json()
+    question = str(resp.get('body'))
+
+    if not question:
+        abort(404, description='¯\_(ツ)_/¯') 
+        return
 
     aiml_reply = k.respond(question)
 
@@ -53,9 +60,3 @@ def chat():
         nmt_reply = predictor.predict(session_id, q)
         print('question:', question, ' nmt-reply:', nmt_reply, sep=' ')
         return nmt_reply
-
-
-if __name__ == ('__main__'):
-    port = int(os.environ.get('PORT', 8080))
-    print('running app on 0.0.0.0:' + port)
-    app.run(host='0.0.0.0', port=port)
