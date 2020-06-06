@@ -1,6 +1,7 @@
-node_modules
+.vscode
+bin
+lib
 __pycache__
-coverage
-build
-.next
-dist
+include
+share
+data
