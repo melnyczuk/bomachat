@@ -1,5 +1,5 @@
 build:
   docker:
-    web: "./server/Dockerfile"
+    web: './server/Dockerfile'
 run:
-  web: "python app.py"
+  web: 'waitress app:run'
