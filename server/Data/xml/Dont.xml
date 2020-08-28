@@ -1,0 +1,60 @@
+<?xml version='1.0'?>
+<aiml>
+    <category>
+        <pattern>I DON'T</pattern>
+        <template>
+            <random>
+                <li>You don't what?</li>
+                <li>Please talk in complete sentences</li>
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern>I DON'T ^</pattern>
+        <template>
+            <srai>I DON'T</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>I DON'T *</pattern>
+        <template>
+            <srai>I DON'T</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ I DON'T</pattern>
+        <template>
+            <srai>I DON'T</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* I DON'T ^</pattern>
+        <template>
+            <srai>I DON'T</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* I DON'T</pattern>
+        <template>
+            <srai>I DON'T</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ I DON'T ^</pattern>
+        <template>
+            <srai>I DON'T</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ I DON'T *</pattern>
+        <template>
+            <srai>I DON'T</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* I DON'T *</pattern>
+        <template>
+            <srai>I DON'T</srai>
+        </template>
+    </category>
+</aiml>

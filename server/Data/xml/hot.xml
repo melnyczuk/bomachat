@@ -1,0 +1,380 @@
+<?xml version='1.0'?>
+<aiml>
+    <category>
+        <pattern>HOT</pattern>
+        <template>
+            <random>
+                <li>Sure is, and it's only gonna get hotter</li>
+                <li>Do you like it hot? Some do, just ask Jack Lemmon. Would you like it if the world was hotter?</li>
+                <li>Would you like it if it were hotter? The world is like a big kettle. How does that feel?</li>
+                <li>Best hit the beach, because the fields are becoming deserts. What's you favourite swimming spot?</li>
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern>* BLISTERING</pattern>
+        <template>
+            <srai>HOT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* SPICY ^</pattern>
+        <template>
+            <srai>HOT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>SPICY ^</pattern>
+        <template>
+            <srai>HOT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ RAGING</pattern>
+        <template>
+            <srai>HOT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HOT ^</pattern>
+        <template>
+            <srai>HOT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>SPICY *</pattern>
+        <template>
+            <srai>HOT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BLISTERING</pattern>
+        <template>
+            <srai>HOT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HOT</pattern>
+        <template>
+            <srai>HOT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* LIVE</pattern>
+        <template>
+            <srai>HOT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ RED-HOT *</pattern>
+        <template>
+            <srai>HOT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ LIVE ^</pattern>
+        <template>
+            <srai>HOT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ BLISTERING</pattern>
+        <template>
+            <srai>HOT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ BLISTERING ^</pattern>
+        <template>
+            <srai>HOT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>RED-HOT ^</pattern>
+        <template>
+            <srai>HOT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ LIVE *</pattern>
+        <template>
+            <srai>HOT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HOT</pattern>
+        <template>
+            <srai>HOT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* SPICY *</pattern>
+        <template>
+            <srai>HOT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HOT ^</pattern>
+        <template>
+            <srai>HOT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* RED-HOT ^</pattern>
+        <template>
+            <srai>HOT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HOT ^</pattern>
+        <template>
+            <srai>HOT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HOT ^</pattern>
+        <template>
+            <srai>HOT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>RAGING *</pattern>
+        <template>
+            <srai>HOT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HOT *</pattern>
+        <template>
+            <srai>HOT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>LIVE</pattern>
+        <template>
+            <srai>HOT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* LIVE ^</pattern>
+        <template>
+            <srai>HOT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* BLISTERING *</pattern>
+        <template>
+            <srai>HOT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* LIVE *</pattern>
+        <template>
+            <srai>HOT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* SPICY</pattern>
+        <template>
+            <srai>HOT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>SPICY</pattern>
+        <template>
+            <srai>HOT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>LIVE *</pattern>
+        <template>
+            <srai>HOT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BLISTERING ^</pattern>
+        <template>
+            <srai>HOT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HOT</pattern>
+        <template>
+            <srai>HOT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ SPICY ^</pattern>
+        <template>
+            <srai>HOT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ SPICY *</pattern>
+        <template>
+            <srai>HOT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* RAGING</pattern>
+        <template>
+            <srai>HOT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HOT *</pattern>
+        <template>
+            <srai>HOT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HOT ^</pattern>
+        <template>
+            <srai>HOT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HOT *</pattern>
+        <template>
+            <srai>HOT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BLISTERING *</pattern>
+        <template>
+            <srai>HOT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>RAGING ^</pattern>
+        <template>
+            <srai>HOT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HOT *</pattern>
+        <template>
+            <srai>HOT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ RED-HOT</pattern>
+        <template>
+            <srai>HOT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HOT *</pattern>
+        <template>
+            <srai>HOT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ RAGING *</pattern>
+        <template>
+            <srai>HOT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HOT</pattern>
+        <template>
+            <srai>HOT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HOT *</pattern>
+        <template>
+            <srai>HOT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* RED-HOT *</pattern>
+        <template>
+            <srai>HOT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ BLISTERING *</pattern>
+        <template>
+            <srai>HOT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>RED-HOT *</pattern>
+        <template>
+            <srai>HOT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ SPICY</pattern>
+        <template>
+            <srai>HOT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* RAGING ^</pattern>
+        <template>
+            <srai>HOT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* RAGING *</pattern>
+        <template>
+            <srai>HOT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>RAGING</pattern>
+        <template>
+            <srai>HOT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>RED-HOT</pattern>
+        <template>
+            <srai>HOT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ LIVE</pattern>
+        <template>
+            <srai>HOT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ RAGING ^</pattern>
+        <template>
+            <srai>HOT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HOT ^</pattern>
+        <template>
+            <srai>HOT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* RED-HOT</pattern>
+        <template>
+            <srai>HOT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* BLISTERING ^</pattern>
+        <template>
+            <srai>HOT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>^ RED-HOT ^</pattern>
+        <template>
+            <srai>HOT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>LIVE ^</pattern>
+        <template>
+            <srai>HOT</srai>
+        </template>
+    </category>
+</aiml>
